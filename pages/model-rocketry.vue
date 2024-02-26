@@ -15,6 +15,16 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 <template>
   <Navbar />
+  <div>
+    <img class="rounded-[6px] w-[1300px] h-[250px] object-cover" src="https://cdn.shopify.com/s/files/1/0568/7489/3503/files/privacy-policy.jpg?v=1621664345" />
+    <div class="px-10 flex items-center">
+      <img class="rounded-full h-[200px] w-[200px] object-cover" src="https://ventureasheville.com/wp-content/uploads/2015/09/logo-placeholder.jpg">
+      <div class="flex">
+        <h1 class="font-semibold text-[48px]">Model Rocketry</h1>
+        <Button>Request to Join</Button>
+      </div>
+    </div>
+  </div>
   <div class="flex justify-between">
   <div class="w-3/12">
     <h3 class="font-semibold text-[18px]">About Us</h3>
@@ -153,7 +163,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
     <h3 class="font-semibold text-[18px] mb-2">Follow Us!</h3>
     <div class="flex gap-x-2 text-[14px]">
         <Instagram />
-        <a href="https://instagram.com/siths_model_rocketry" class="font-semibold">@siths_model_rocketry</a>
+        <NuxtLink href="https://instagram.com/siths_model_rocketry" target="_blank" class="font-semibold">@siths_model_rocketry</NuxtLink>
     </div>
     <h3 class="font-semibold text-[18px] mt-3 mb-2">Suggested Clubs</h3>
 </div>
