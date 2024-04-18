@@ -1,6 +1,5 @@
 <template >
-  <div class="mx-[270px] mt-5">
+  <div class="mx-5 mt-4">
     <NuxtPage />
   </div>
-  
 </template>
