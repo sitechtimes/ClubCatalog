@@ -55,7 +55,7 @@ console.log(presidents)
                     <DialogHeader>
                         <DialogTitle>Club Charter</DialogTitle>
                     </DialogHeader>
-                    <embed src="../public/Homerooms.pdf" />
+                    <embed src="../../Homerooms.pdf" />
                 </DialogContent>
             </Dialog>
             <h3 class="font-semibold text-[18px] mt-3 mb-2">Leaders</h3>
@@ -116,7 +116,7 @@ console.log(presidents)
                     </div>
                     <div class="w-full">
                         <h3 class="font-semibold text-[18px]">Meeting</h3>
-                        <p>After school | Room 259</p>
+                        <p>After school | Room {{ club["Room"] }}</p>
                     </div>
                     <ChevronRight />
                 </div>
