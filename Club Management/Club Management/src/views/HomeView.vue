@@ -15,7 +15,7 @@ const loginactive = ref(false);
         <p :to="`/${club['Club Name']}`" style="display: flex; justify-content: center;">
           {{ club["Club Name"] }}
         </p>
-        <RouterLink to="/login" id="presidentlogin">Login as President/Advisor</RouterLink>
+        <button id="presidentlogin">Login as President/Advisor</button>
       </div>
     </div>
   </main>
