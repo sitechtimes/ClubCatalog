@@ -5,22 +5,21 @@ import login from '../components/login.vue'
 
 const clubSearch = ref("");
 const loginactive = ref(false);
+const clubActive = ref(null)
 
 </script>
 
 <template>
-  <main>
+   <login v-if="loginactive" @close="loginactive = false" :clubName="clubActive"/>
     <h1 style="display: flex; justify-content: center;">Club List</h1>
     <div id="clublist">
       <div v-for="club in clubs" class="clubitem">
         <p :to="`/${club['Club Name']}`" style="display: flex; justify-content: center;">
           {{ club["Club Name"] }}
         </p>
-        <button id="presidentlogin" @click="loginactive = true">Login as President/Advisor</button>
+        <button id="presidentlogin" @click="loginactive = true; clubActive = club['Club Name']">Login as President/Advisor</button>
       </div>
     </div>
-  </main>
-  <login v-if="loginactive" @close="loginactive = false" />
 </template>
 
 <style scoped>
