@@ -1,6 +1,7 @@
 <script setup>
 import clubs from "../assets/data.json";
 import { ref } from "vue";
+import login from '../components/login.vue'
 
 const clubSearch = ref("");
 const loginactive = ref(false);
@@ -15,10 +16,11 @@ const loginactive = ref(false);
         <p :to="`/${club['Club Name']}`" style="display: flex; justify-content: center;">
           {{ club["Club Name"] }}
         </p>
-        <button id="presidentlogin">Login as President/Advisor</button>
+        <button id="presidentlogin" @click="loginactive = true">Login as President/Advisor</button>
       </div>
     </div>
   </main>
+  <login v-if="loginactive" @close="loginactive = false" />
 </template>
 
 <style scoped>
