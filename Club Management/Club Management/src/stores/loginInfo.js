@@ -2,8 +2,9 @@ import {ref, computed} from 'vue'
 import {defineStore} from 'pinia'
 
 export const useLoginInfo = defineStore('loginInfo', () => {
-    const login = ref(null)
+    const loggedIn = ref(false)
+    const currentClub = ref(null)
 
-    return { login }
+    return { loggedIn, currentClub }
 })
 
