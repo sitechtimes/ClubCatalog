@@ -14,11 +14,11 @@ import { ref, onMounted, computed } from 'vue'
 import { useLoginInfo } from '../stores/loginInfo'
 import { useRouter } from 'vue-router'
 
+
 const loginInfo = useLoginInfo()
 const router = useRouter()
 const eventdata = ref(null)
 const permitted = ref(false)
-const apiKey = import.meta.env.SHEETS_API_KEY
 console.log("key: " + apiKey)
 const spreadsheetId = '1qG5AABVm3aLNkJjxizqjNjyE5jvyyvRZER8Icap4bLs'
 const sheetName = 'ClubData'
@@ -31,8 +31,8 @@ onMounted(() => {
   }
   console.log(permitted.value)
   fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}?key=${apiKey}`)
-  .then(response => response.json())
-  .then(data => console.log(data.values))
+  //.then(response => console.log(response.json()))
+  .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
 })
 
