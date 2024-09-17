@@ -1,73 +1,98 @@
 <script setup>
-import { ArrowUpRight } from 'lucide-vue-next';
+import Navbar from "../components/Navbar.vue";
 </script>
 
 <template>
-    <div class="flex flex-row h-[98vh] gap-x-4 w-full pb-2">
-        <div class="flex h-full w-8/12 bg-slate-500 text-white items-end p-4">
-            <h1 class="scroll-m-20 text-8xl font-extrabold tracking-tight lg:text-8xl">Explore Opportunities at Staten Island Tech</h1>
+    <div ID="container">
+        <Navbar />
+        <div id="container-main">
+            <h1 id="home">Explore Opportunities at Staten Island Tech</h1>
+            <div style="display: flex; flex-direction: row; gap: 1rem;">
+                <NuxtLink to="/clubs">Browse Clubs</NuxtLink>
+                <NuxtLink to="/">Contact Staff</NuxtLink>
+            </div>
         </div>
-        <div class="flex flex-col w-4/12 gap-y-4">
-            <div class="h-1/2 bg-[url('https://www.solarcarchallenge.org/challenge/teams2022/staten_island.jpg')]" id="card">
-                <NuxtLink to="/clubs">
-                    <div class="flex w-full h-full items-end px-4 py-4" id="hover">
-                        <div class="flex justify-between text-white items-center w-full" id="info">
-                            <h2 class="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">Clubs</h2>
-                            <ArrowUpRight class="arrow-icon" color="white" size="50" stroke-width="1.25"/>
-                        </div>
-                    </div>
-                </NuxtLink>
-            </div>
-            <div class="h-1/2 bg-[url('/event.jpg')]" id="card">
-                <NuxtLink to="/events">
-                    <div class="flex w-full h-full items-end px-4 py-4" id="hover">
-                        <div class="flex justify-between text-white items-center w-full" id="info">
-                            <h2 class="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">Events</h2>
-                            <ArrowUpRight class="arrow-icon" color="white" size="50" stroke-width="1.25"/>
-                        </div>
-                    </div>
-                </NuxtLink>
-            </div>
-        </div>  
     </div>
+    
 </template>
 
 <style scoped>
-#card {
-    background-size: cover;
-    background-position-y: top;
-    background-repeat: no-repeat;
-    transition: 0.3s ease-in;
-}
 
-#hover {
-    background-image: linear-gradient(45deg, rgba(23, 23, 24, 0.658) 50%, rgba(0, 255, 255, 0) 50%);
-    background-size: 300% 100%;
-    background-position: right bottom;
-    z-index: 2;
-    transition: 0.3s ease-in;
-}
+    h1 {
+        text-align: center;
+    }
+    #container {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        padding:1rem;
+        background-image: linear-gradient(to bottom right, #7ceef9, #1594de);
+        background-size: cover;
+    } 
+    #home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        font-weight: bold;
+    }
 
-#card:hover #hover {
-    background-position: left top;
-}
+    #container-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+            align-items: center;
+            height: 90%;
+    }
 
-h2 {
-    transition: 0.3s ease-in;
-}
+    a {
+        background-color: #033597;
+        text-decoration: none;
+        color: white;
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+        width: fit-content;
+        align-self: center;
+    }
 
-#card:hover #info h2 {
-    font-size: 48px;
-    font-size-adjust: 10px;
-    z-index: 3;
-}
+    a:hover {
+        animation: buttonfadein 0.3s;
+        animation-fill-mode: forwards;
+    }
 
-.arrow-icon {
-    transition: 0.3s ease-in;
-}
-#card:hover #info .arrow-icon {
-    width: 64px;
-    height: 64px;
-}
+    a:not(:hover) {
+        animation: buttonfadeout 0.3s;
+        animation-fill-mode: forwards;
+    }
 
+    @media (min-width: 600px) {
+        #home {
+            font-size: 5rem;
+        }
+
+        a {
+            font-size: 2.3rem;
+        }
+    }
+
+    @keyframes buttonfadein {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0.7;
+        }
+    }
+
+    @keyframes buttonfadeout {
+        0% {
+            opacity: 0.7;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 </style>
