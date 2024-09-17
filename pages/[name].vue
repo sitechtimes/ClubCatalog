@@ -1,5 +1,4 @@
 <script setup>
-import Navbar from "../components/Navbar.vue";
 import { File, Instagram, ChevronRight } from "lucide-vue-next";
 import {
     Dialog,
@@ -26,7 +25,6 @@ console.log(presidents)
 </script>
 
 <template>
-    <Navbar />
     <div class="flex w-full flex-col items-center mb-[-60px]">
         <img class="rounded-[6px] w-full h-[250px] object-cover"
             src="https://t3.ftcdn.net/jpg/04/86/29/98/360_F_486299886_4aXrDh0LPy7BK4SUJvhCkKpnnExNDsLX.jpg" />
