@@ -19,7 +19,7 @@ const loginInfo = useLoginInfo()
 const router = useRouter()
 const eventdata = ref(null)
 const permitted = ref(false)
-const apiKey = ''
+console.log("key: " + apiKey)
 const spreadsheetId = '1qG5AABVm3aLNkJjxizqjNjyE5jvyyvRZER8Icap4bLs'
 const sheetName = 'ClubData'
 
@@ -31,7 +31,7 @@ onMounted(() => {
   }
   console.log(permitted.value)
   fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}?key=${apiKey}`)
-  .then(response => console.log(response.json()))
+  //.then(response => console.log(response.json()))
   .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
 })
