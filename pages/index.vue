@@ -1,12 +1,15 @@
 <script setup>
 import clubs from "../assets/data.json";
 import { Tags, Calendar, RefreshCw, Search } from "lucide-vue-next";
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 
 const clubSearch = ref("");
 const selectedCategories = ref([]);
 const selectedDays = ref([]);
 const meetingFrequencies = ref([]);
+
+//create a ref with an actual link to all the filters
+const filters = ref("FilterDiv");
 
 function toggleMeetingFrequency(meetingFrequency) {
   if (meetingFrequencies.value.includes(meetingFrequency)) {
@@ -35,6 +38,8 @@ function toggleCategory(category) {
     selectedCategories.value.push(category);
   }
 }
+onMounted(() => {
+})
 </script>
 
 <template>
@@ -53,7 +58,6 @@ function toggleCategory(category) {
           </i>
         </div>
       </div>
-      
       <div class="mt-5">
         <!-- Categories Filter -->
         <p class="flex gap-2 mb-4 font-semibold text-lg justify-center">
@@ -130,6 +134,9 @@ function toggleCategory(category) {
         </div>
       </div>
     </div>
+      <div ref="FilterDiv">
+      </div>
+      
 
     <!-- Club Catalog -->
     <div class="lg:w-2/3 w-full">
