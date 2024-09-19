@@ -39,7 +39,7 @@ const data = ref([]);
 const fetchSpreadsheetData = async () => {
   const spreadsheetId = '1qG5AABVm3aLNkJjxizqjNjyE5jvyyvRZER8Icap4bLs'; // Replace with your Spreadsheet ID
   const range = 'Sheet1!A1:Z100'; // Adjust as necessary
-  const apiKey = 'AIzaSyAiXFv3EWT4uyn0gkhA-90KKu3TYj-XoWI'; // Replace with your API key
+  const apiKey = ''; // Replace with your API key
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`;
 
   try {
