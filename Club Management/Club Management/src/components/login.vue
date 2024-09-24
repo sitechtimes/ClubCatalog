@@ -1,15 +1,14 @@
 <template>
   <div @click.self="$emit('close')" id="backgroundLogin" style="width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); position: fixed; top: 0; left: 0;">
     <div id="loginPop">
-      <label ID="LABEL">Passkey{{ loginInfo.currentClub["Pass"] }}</label>
-      <div>
-        <input id="passEnter" v-model="passkey" type="password" @keyup.enter="login"/>
-        <button @click="login">Login</button>
-      </div>
+      <label>Passkey{{ loginInfo.currentClub["Pass"] }}</label>
+      <form v-on:submit.prevent="login">
+        <input id="passEnter" v-model="passkey" type="password"/>
+        <button type="submit">Login</button>
+      </form>
     </div>
   </div>
 </template>
-
 <script setup>
 import { ref } from 'vue'
 import { useLoginInfo } from '../stores/loginInfo'
@@ -54,7 +53,7 @@ button {
   max-width: 70%;
 }
 
-#LABEL {
+label {
   font-size: 3rem;
   color: white;
   font-weight: bold;

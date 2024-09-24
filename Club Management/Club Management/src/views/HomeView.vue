@@ -1,3 +1,16 @@
+<template>
+   <login v-if="loginactive" @close="loginactive = false"/>
+    <h1 style="display: flex; justify-content: center;">Club List</h1>
+    <div id="clublist">
+      <div v-for="club in clubs" :key="club" class="clubitem">
+        <a href="`/${club['Club Name']}`" style="display: flex; justify-content: center;">
+          {{ club["Club Name"] }}
+        </a>
+        <button id="presidentlogin" @click="loginactive = true; updateCurrentClub(club)">Login as President/Advisor</button>
+      </div>
+    </div>
+</template>
+
 <script setup>
 import clubs from "../assets/data.json";
 import { ref, computed } from "vue";
@@ -15,19 +28,6 @@ const clubSearch = ref("");
 
 </script>
 
-<template>
-   <login v-if="loginactive" @close="loginactive = false"/>
-    <h1 style="display: flex; justify-content: center;">Club List</h1>
-    <div id="clublist">
-      <div v-for="club in clubs" class="clubitem">
-        <p :to="`/${club['Club Name']}`" style="display: flex; justify-content: center;">
-          {{ club["Club Name"] }}
-        </p>
-        <button id="presidentlogin" @click="loginactive = true; updateCurrentClub(club)">Login as President/Advisor</button>
-      </div>
-    </div>
-</template>
-
 <style scoped>
   #clublist {
     display: flex;
@@ -37,6 +37,7 @@ const clubSearch = ref("");
 
   a {
     text-decoration: none;
+    color: white;
   }
 
   .clubitem {
@@ -47,7 +48,7 @@ const clubSearch = ref("");
     justify-content: center;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ffffff;
+    color: white;
     padding: 0.5rem;
     border-radius: 0.5rem;
     border: 2px solid #2c3e50;

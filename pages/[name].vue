@@ -11,12 +11,8 @@ let club = data.find(club => club["Club Name"].toLowerCase().replace(/\s/g, '') 
 console.log(club);
 let presidents = club["Club President(s)"].split(", ");
 
-let coVnoco = ref('');
-if (presidents.length > 1) {
-    coVnoco = "Co-Presidents";
-} else {
-    coVnoco = "President";
-}
+let coVnoco = ref('President');
+coVnoco = presidents.length > 1 ? "Co-Presidents" : "President";
 </script>
 
 <template>

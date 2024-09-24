@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <div id="navbar">
-        <div class="flex gap-x-8">
+        <div>
             <RouterLink to="/" style="font-size: large;">
                 Home
             </RouterLink>

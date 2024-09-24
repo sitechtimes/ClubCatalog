@@ -9,7 +9,7 @@ const selectedDays = ref([]);
 const meetingFrequencies = ref([]);
 
 //create a ref with an actual link to all the filters
-const filters = ref("FilterDiv");
+const filterDiv = ref();
 
 function toggleMeetingFrequency(meetingFrequency) {
   if (meetingFrequencies.value.includes(meetingFrequency)) {
@@ -38,8 +38,6 @@ function toggleCategory(category) {
     selectedCategories.value.push(category);
   }
 }
-onMounted(() => {
-})
 </script>
 
 <template>
@@ -77,6 +75,7 @@ onMounted(() => {
               'Leadership',
               'Community Service',
             ]"
+            :key="category"
             :class="{
               'bg-gray-200': !selectedCategories.includes(category),
               'bg-gray-500': selectedCategories.includes(category),
@@ -98,6 +97,7 @@ onMounted(() => {
           <span
             v-for="day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']"
             class="rounded-lg py-1 px-4 cursor-pointer"
+            :key="day"
             :class="{
               'bg-gray-200': !selectedDays.includes(day),
               'bg-gray-500': selectedDays.includes(day),
@@ -122,6 +122,7 @@ onMounted(() => {
               'Twice a Month',
               'First Week of the Month',
             ]"
+            :key="frequency"
             class="rounded-lg py-1 px-4 cursor-pointer"
             :class="{
               'bg-gray-200': !meetingFrequencies.includes(frequency),
@@ -134,14 +135,16 @@ onMounted(() => {
         </div>
       </div>
     </div>
-      <div ref="FilterDiv">
-      </div>
+      <!--
+      <div ref="filterDiv"></div>
+      burger menu
+      -->
       
 
     <!-- Club Catalog -->
     <div class="lg:w-2/3 w-full">
       <h4 class="font-semibold text-xl mb-4 text-center border-b border-gray-400">Catalog</h4>
-      <div v-for="club in clubs">
+      <div v-for="club in clubs" :key="club">
         <div
           class="flex items-center gap-6 mb-7"
           v-if="(clubSearch === '' || club['Club Name'].toLowerCase().includes(clubSearch.toLowerCase())) &&
@@ -163,6 +166,7 @@ onMounted(() => {
               <div class="flex flex-wrap gap-2">
                 <span
                   v-for="category in club['Category']"
+                  :key="category"
                   class="bg-gray-200 rounded-lg py-2 px-3 text-sm text-gray-600"
                 >
                   {{ category }}
