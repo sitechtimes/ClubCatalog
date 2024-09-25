@@ -1,15 +1,15 @@
 <script setup>
-import { ChevronRight } from "lucide-vue-next";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import data from '../../assets/data.json';
-import { ref, computed } from 'vue';
+import { ChevronLeft } from "lucide-vue-next"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import data from '@/public/data.json'
+import { ref } from 'vue'
 
-const route = useRoute();
+const route = useRoute()
 
-let club = data.find(club => club["Club Name"].toLowerCase().replace(/\s/g, '') === route.params.name);
+const club = data.find(club => club["Club Name"].toLowerCase().replace(/\s/g, '') === route.params.name)
 
-console.log(club);
-let presidents = club["Club President(s)"].split(", ");
+console.log(club)
+let presidents = club["Club President(s)"].split(", ")
 
 const coVnoco = ref(presidents.length > 1 ? "Co-Presidents" : "President")
 </script>
@@ -37,7 +37,7 @@ const coVnoco = ref(presidents.length > 1 ? "Co-Presidents" : "President")
   <div class="flex flex-col lg:flex-row justify-between px-6 py-4">
     <div class="flex items-start justify-center lg:hidden">
       <RouterLink to="/" class="btn">
-        <ChevronRight class="h-6 w-6" />
+        <ChevronLeft class="h-6 w-6" />
         Back to Club List
       </RouterLink>
     </div>
@@ -91,7 +91,7 @@ const coVnoco = ref(presidents.length > 1 ? "Co-Presidents" : "President")
     </div>
     <div class="flex items-start justify-center hidden lg:flex">
       <RouterLink to="/" class="btn">
-        <ChevronRight class="h-6 w-6" />
+        <ChevronLeft class="h-6 w-6" />
         Back to Club List
       </RouterLink>
     </div>

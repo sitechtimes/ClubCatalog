@@ -1,7 +1,7 @@
 <script setup>
-import clubs from "../assets/data.json";
+import clubs from "../public/data.json";
 import { Tags, Calendar, RefreshCw, Search } from "lucide-vue-next";
-import { ref, onMounted } from "vue";
+import { ref } from "vue";
 
 const clubSearch = ref("");
 const selectedCategories = ref([]);
