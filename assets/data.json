@@ -7,7 +7,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM", "Special Interest/Hobbies"]
+      "Category": ["STEM", "Special Interest/Hobbies"],
+      "Pass": "xK3p"
     },
     {
       "Club Name": "Albanian Heritage Club",
@@ -17,7 +18,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Cultural"]
+      "Category": ["Cultural"],
+      "Pass": "7sT9"
     },
     {
       "Club Name": "American Institute of Architecture Club",
@@ -27,7 +29,8 @@
       "Meeting Frequency": "l",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "3F4z"
     },
     {
       "Club Name": "American Sign Language and Deaf Culture Club",
@@ -37,7 +40,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Cultural"]
+      "Category": ["Cultural"],
+      "Pass": "nM2g"
     },
     {
       "Club Name": "Amnesty International Club",
@@ -47,7 +51,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Special Interest/Hobbies", "Community Service"]
+      "Category": ["Special Interest/Hobbies", "Community Service"],
+      "Pass": "hJ8r"
     },
     {
       "Club Name": "Anime Club",
@@ -57,7 +62,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Arts & Crafts", "Special Interest/Hobbies"]
+      "Category": ["Arts & Crafts", "Special Interest/Hobbies"],
+      "Pass": "eR4t"
     },
     {
       "Club Name": "Art Club",
@@ -67,7 +73,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Arts & Crafts"]
+      "Category": ["Arts & Crafts"],
+      "Pass": "2sD5"
     },
     {
       "Club Name": "Arts and Crafts",
@@ -77,7 +84,8 @@
       "Meeting Frequency": "First week of the month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Arts & Crafts"]
+      "Category": ["Arts & Crafts"],
+      "Pass": "aG9p"
     },
     {
       "Club Name": "Asian American Club",
@@ -87,7 +95,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Cultural"]
+      "Category": ["Cultural"],
+      "Pass": "rE5c"
     },
     {
       "Club Name": "Astronomy Club",
@@ -97,7 +106,8 @@
       "Meeting Frequency": "2nd and 4th week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM"]
+      "Category": ["STEM"],
+      "Pass": "6sH2"
     },
     {
       "Club Name": "Balkan Club",
@@ -107,7 +117,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Cultural"]
+      "Category": ["Cultural"],
+      "Pass": "nM4d"
     },
     {
       "Club Name": "Better Everybody",
@@ -117,7 +128,8 @@
       "Meeting Frequency": "",
       "Status": "Approved",
       "Comments": "",
-      "Category": []
+      "Category": [],
+      "Pass": "xZ8s"
     },
     {
       "Club Name": "Book Club",
@@ -127,7 +139,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Literary"]
+      "Category": ["Literary"],
+      "Pass": "3F4z"
     },
     {
       "Club Name": "Bridge to Literacy",
@@ -137,7 +150,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Literary"]
+      "Category": ["Literary"],
+      "Pass": "7sT9"
     },
     {
       "Club Name": "CAD Club",
@@ -147,7 +161,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM", "Special Interest/Hobbies"]
+      "Category": ["STEM", "Special Interest/Hobbies"],
+      "Pass": "kM4d"
     },
     {
       "Club Name": "Celtic Club",
@@ -157,7 +172,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Cultural"]
+      "Category": ["Cultural"],
+      "Pass": "nZ8d"
     },
     {
       "Club Name": "Chess Club",
@@ -167,7 +183,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "xR3f"
     },
     {
       "Club Name": "Chinese Culture Club",
@@ -177,7 +194,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Cultural"]
+      "Category": ["Cultural"],
+      "Pass": "9sE5"
     },
     {
       "Club Name": "Christian Seekers Club",
@@ -187,7 +205,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Special Interest/Hobbies"]
+      "Category": ["Special Interest/Hobbies"],
+      "Pass": "7tB8"
     },
     {
       "Club Name": "Coding Club",
@@ -197,7 +216,8 @@
       "Meeting Frequency": "twice a month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM", "Special Interest/Hobbies"]
+      "Category": ["STEM", "Special Interest/Hobbies"],
+      "Pass": "3F4z"
     },
     {
       "Club Name": "Color Guard",
@@ -207,7 +227,8 @@
       "Meeting Frequency": "3 Days a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Arts & Crafts", "Sports/Recreation"]
+      "Category": ["Arts & Crafts", "Sports/Recreation"],
+      "Pass": "4yM3"
     },
     {
       "Club Name": "Community Service Club",
@@ -217,7 +238,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Community Service"]
+      "Category": ["Community Service"],
+      "Pass": "aT2d"
     },
     {
       "Club Name": "Computer Science Club",
@@ -227,7 +249,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM"]
+      "Category": ["STEM"],
+      "Pass": "6fV9"
     },
     {
       "Club Name": "Cooking Club",
@@ -237,7 +260,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Special Interest/Hobbies"]
+      "Category": ["Special Interest/Hobbies"],
+      "Pass": "dQ8c"
     },
     {
       "Club Name": "Creative Writing Club",
@@ -247,7 +271,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Literary"]
+      "Category": ["Literary"],
+      "Pass": "kP9b"
     },
     {
       "Club Name": "Dance Club",
@@ -257,7 +282,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Arts & Crafts", "Sports/Recreation"]
+      "Category": ["Arts & Crafts", "Sports/Recreation"],
+      "Pass": "4xV8"
     },
     {
       "Club Name": "DECA",
@@ -267,7 +293,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "q2w3"
     },
     {
       "Club Name": "DECA/Model UN/Key Club",
@@ -277,7 +304,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual", "Special Interest/Hobbies", "Community Service"]
+      "Category": ["Academic/Intellectual", "Special Interest/Hobbies", "Community Service"],
+      "Pass": "a1b2"
     },
     {
       "Club Name": "DIY Club",
@@ -287,7 +315,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Arts & Crafts", "Special Interest/Hobbies"]
+      "Category": ["Arts & Crafts", "Special Interest/Hobbies"],
+      "Pass": "x3y4"
     },
     {
       "Club Name": "Doctor's Club",
@@ -297,7 +326,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "c4d5"
     },
     {
       "Club Name": "Drama Club",
@@ -307,7 +337,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Arts & Crafts"]
+      "Category": ["Arts & Crafts"],
+      "Pass": "e6f7"
     },
     {
       "Club Name": "Ecology Club",
@@ -317,7 +348,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM", "Community Service"]
+      "Category": ["STEM", "Community Service"],
+      "Pass": "g8h9"
     },
     {
       "Club Name": "Economics and Financial Literacy Club",
@@ -327,7 +359,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "i1j2"
     },
     {
       "Club Name": "Environmental Club",
@@ -337,7 +370,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM", "Community Service"]
+      "Category": ["STEM", "Community Service"],
+      "Pass": "k3l4"
     },
     {
       "Club Name": "Ethics Bowl",
@@ -347,7 +381,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "m5n6"
     },
     {
       "Club Name": "FBLA",
@@ -357,7 +392,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "o7p8"
     },
     {
       "Club Name": "French Club",
@@ -367,7 +403,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Cultural"]
+      "Category": ["Cultural"],
+      "Pass": "q9r0"
     },
     {
       "Club Name": "French Honor Society",
@@ -377,7 +414,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "s1t2"
     },
     {
       "Club Name": "Future Educators of America Club",
@@ -387,7 +425,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "u3v4"
     },
     {
       "Club Name": "Future Medical Professionals",
@@ -397,7 +436,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "w5x6"
     },
     {
       "Club Name": "Game Design Club",
@@ -407,7 +447,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM", "Special Interest/Hobbies"]
+      "Category": ["STEM", "Special Interest/Hobbies"],
+      "Pass": "y7z8"
     },
     {
       "Club Name": "Gaming Club",
@@ -417,7 +458,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Special Interest/Hobbies"]
+      "Category": ["Special Interest/Hobbies"],
+      "Pass": "a9b0"
     },
     {
       "Club Name": "Gender-Sexuality Alliance (GSA)",
@@ -427,7 +469,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Community Service"]
+      "Category": ["Community Service"],
+      "Pass": "c1d2"
     },
     {
       "Club Name": "German Club",
@@ -437,7 +480,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Cultural"]
+      "Category": ["Cultural"],
+      "Pass": "e3f4"
     },
     {
       "Club Name": "Global Awareness Club",
@@ -447,7 +491,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Community Service"]
+      "Category": ["Community Service"],
+      "Pass": "g5h6"
     },
     {
       "Club Name": "Golf Club",
@@ -457,7 +502,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Sports/Recreation"]
+      "Category": ["Sports/Recreation"],
+      "Pass": "i7j8"
     },
     {
       "Club Name": "Graphic Design Club",
@@ -467,7 +513,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Arts & Crafts"]
+      "Category": ["Arts & Crafts"],
+      "Pass": "k9l0"
     },
     {
       "Club Name": "Habitat for Humanity Club",
@@ -477,7 +524,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Community Service"]
+      "Category": ["Community Service"],
+      "Pass": "m1n2"
     },
     {
       "Club Name": "Hellenic Club",
@@ -487,7 +535,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Cultural"]
+      "Category": ["Cultural"],
+      "Pass": "o3p"
     },
     {
       "Club Name": "History Club",
@@ -497,7 +546,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "a1b2"
     },
     {
       "Club Name": "Indian Culture Club",
@@ -507,7 +557,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Cultural"]
+      "Category": ["Cultural"],
+      "Pass": "c3d4"
     },
     {
       "Club Name": "Investment Club",
@@ -517,7 +568,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "e5f6"
     },
     {
       "Club Name": "Italian Club",
@@ -527,7 +579,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Cultural"]
+      "Category": ["Cultural"],
+      "Pass": "g7h8"
     },
     {
       "Club Name": "Jazz Band",
@@ -537,7 +590,8 @@
       "Meeting Frequency": "Every Day",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Arts & Crafts", "Music"]
+      "Category": ["Arts & Crafts", "Music"],
+      "Pass": "i9j0"
     },
     {
       "Club Name": "Junior Classical League",
@@ -547,7 +601,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "k1l2"
     },
     {
       "Club Name": "Key Club",
@@ -557,7 +612,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Community Service"]
+      "Category": ["Community Service"],
+      "Pass": "m3n4"
     },
     {
       "Club Name": "Latin Club",
@@ -567,7 +623,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "o5p6"
     },
     {
       "Club Name": "Latin Dance Club",
@@ -577,7 +634,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Arts & Crafts", "Sports/Recreation"]
+      "Category": ["Arts & Crafts", "Sports/Recreation"],
+      "Pass": "q7r8"
     },
     {
       "Club Name": "Law Club",
@@ -587,7 +645,8 @@
       "Meeting Frequency": "Once a Week",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "s9t0"
     },
     {
       "Club Name": "Math Club",
@@ -597,7 +656,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM"]
+      "Category": ["STEM"],
+      "Pass": "u1v2"
     },
     {
       "Club Name": "MESA",
@@ -607,7 +667,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM"]
+      "Category": ["STEM"],
+      "Pass": "w3x4"
     },
     {
       "Club Name": "Model UN",
@@ -617,7 +678,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "y5z6"
     },
     {
       "Club Name": "Music Production Club",
@@ -627,7 +689,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Music"]
+      "Category": ["Music"],
+      "Pass": "a7b8"
     },
     {
       "Club Name": "National Honor Society",
@@ -637,7 +700,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "c9d0"
     },
     {
       "Club Name": "Photography Club",
@@ -647,7 +711,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Arts & Crafts"]
+      "Category": ["Arts & Crafts"],
+      "Pass": "e1f2"
     },
     {
       "Club Name": "Physics Club",
@@ -657,7 +722,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM"]
+      "Category": ["STEM"],
+      "Pass": "g3h4"
     },
     {
       "Club Name": "Political Awareness Club",
@@ -667,7 +733,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "i5j6"
     },
     {
       "Club Name": "Pottery Club",
@@ -677,7 +744,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Arts & Crafts"]
+      "Category": ["Arts & Crafts"],
+      "Pass": "k7l8"
     },
     {
       "Club Name": "Psychology Club",
@@ -687,7 +755,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "m9n0"
     },
     {
       "Club Name": "Robotics Club",
@@ -697,7 +766,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM"]
+      "Category": ["STEM"],
+      "Pass": "h3y4"
     },
     {
       "Club Name": "Science Bowl",
@@ -707,7 +777,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM"]
+      "Category": ["STEM"],
+      "Pass": "i5j6"
     },
     {
       "Club Name": "Science Club",
@@ -717,7 +788,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM"]
+      "Category": ["STEM"],
+      "Pass": "k7l8"
     },
     {
       "Club Name": "Science Honor Society",
@@ -727,7 +799,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM"]
+      "Category": ["STEM"],
+      "Pass": "m9n0"
     },
     {
       "Club Name": "Science Olympiad",
@@ -737,7 +810,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM"]
+      "Category": ["STEM"],
+      "Pass": "p1q2"
     },
     {
       "Club Name": "Science Research Club",
@@ -747,7 +821,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM"]
+      "Category": ["STEM"],
+      "Pass": "r3s4"
     },
     {
       "Club Name": "Sign Language Club",
@@ -757,7 +832,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Cultural"]
+      "Category": ["Cultural"],
+      "Pass": "t5u6"
     },
     {
       "Club Name": "Ski Club",
@@ -767,7 +843,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Sports/Recreation"]
+      "Category": ["Sports/Recreation"],
+      "Pass": "v7w8"
     },
     {
       "Club Name": "Sociology Club",
@@ -777,7 +854,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "x9y0"
     },
     {
       "Club Name": "Spanish Club",
@@ -787,7 +865,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Cultural"]
+      "Category": ["Cultural"],
+      "Pass": "z1a2"
     },
     {
       "Club Name": "Spanish Honor Society",
@@ -797,7 +876,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "b3c4"
     },
     {
       "Club Name": "Student Government",
@@ -807,7 +887,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Special Interest/Hobbies"]
+      "Category": ["Special Interest/Hobbies"],
+      "Pass": "d5e6"
     },
     {
       "Club Name": "Table Tennis Club",
@@ -817,7 +898,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Sports/Recreation"]
+      "Category": ["Sports/Recreation"],
+      "Pass": "f7g8"
     },
     {
       "Club Name": "Technology Student Association (TSA)",
@@ -827,7 +909,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM"]
+      "Category": ["STEM"],
+      "Pass": "h9i0"
     },
     {
       "Club Name": "Tri-M Music Honor Society",
@@ -837,7 +920,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Music"]
+      "Category": ["Music"],
+      "Pass": "j1k2"
     },
     {
       "Club Name": "Ultimate Frisbee Club",
@@ -847,7 +931,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Sports/Recreation"]
+      "Category": ["Sports/Recreation"],
+      "Pass": "l3m4"
     },
     {
       "Club Name": "UNICEF",
@@ -857,7 +942,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Community Service"]
+      "Category": ["Community Service"],
+      "Pass": "n5c6"
     },
     {
       "Club Name": "Varsity Club",
@@ -867,7 +953,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Sports/Recreation"]
+      "Category": ["Sports/Recreation"],
+      "Pass": "x8z9"
     },
     {
       "Club Name": "Vegetarian and Vegan Club",
@@ -877,7 +964,8 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Special Interest/Hobbies"]
+      "Category": ["Special Interest/Hobbies"],
+      "Pass": "m4b5"
     },
     {
       "Club Name": "Women in STEM",
@@ -887,7 +975,8 @@
       "Meeting Frequency": "Twice a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["STEM"]
+      "Category": ["STEM"],
+      "Pass": "p7q8"
     },
     {
       "Club Name": "World Affairs Club",
@@ -897,6 +986,7 @@
       "Meeting Frequency": "Once a Month",
       "Status": "Approved",
       "Comments": "",
-      "Category": ["Academic/Intellectual"]
+      "Category": ["Academic/Intellectual"],
+      "Pass": "r9t0"
     }
   ]
