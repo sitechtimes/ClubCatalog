@@ -25,7 +25,7 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
       title: 'Club Catelog',
       meta: [
-        { name: 'description', content: 'Find and join clubs at SCHS' }
+        { name: 'description', content: 'Find and join clubs at SITHS' }
       ]
     }
   }
