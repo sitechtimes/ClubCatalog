@@ -18,5 +18,15 @@ export default defineNuxtConfig({
      * @default "./components/ui"
      */
     componentDir: './components/ui'
+  },
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      title: 'Club Catelog',
+      meta: [
+        { name: 'description', content: 'Find and join clubs at SCHS' }
+      ]
+    }
   }
 })
