@@ -36,7 +36,6 @@ try {
     coVnoco = presidents.length > 1 ? "Co-Presidents" : "President";
   }
 } catch (e) {
-  console.error('Error fetching club data:', e);
   useRouter().push('/404');
 }
 //console.log(club, club["Club Name"].toLowerCase().replace(/\s/g, ''))
