@@ -117,10 +117,9 @@ function toggleCategory(category) {
         <div class="flex flex-wrap gap-2">
           <span
             v-for="frequency in [
-              'Once a Week',
+              'Weekly',
               'Once a Month',
               'Twice a Month',
-              'First Week of the Month',
             ]"
             :key="frequency"
             class="rounded-lg py-1 px-4 cursor-pointer"
@@ -149,7 +148,8 @@ function toggleCategory(category) {
           class="flex items-center gap-6 mb-7"
           v-if="(clubSearch === '' || club['Club Name'].toLowerCase().includes(clubSearch.toLowerCase())) &&
           (selectedCategories.some(category => club['Category'].includes(category)) || selectedCategories.length === 0) &&
-          (meetingFrequencies.some(frequency => club['Meeting Frequency'].includes(frequency)) || meetingFrequencies.length === 0)"
+          (meetingFrequencies.some(frequency => club['Meeting Frequency'].includes(frequency)) || meetingFrequencies.length === 0) &&
+          (selectedDays.some(day => club['Day'].includes(day)) || selectedDays.length === 0)"
         >
           <img
             class="rounded-full h-32 w-32"
@@ -160,8 +160,8 @@ function toggleCategory(category) {
             <div class="flex flex-col gap-3">
               <h4 class="font-semibold text-lg">{{ club["Club Name"] }}</h4>
               <p class="text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                No club description is currently available
+               <!-- club description will go here -->
               </p>
               <div class="flex flex-wrap gap-2">
                 <span

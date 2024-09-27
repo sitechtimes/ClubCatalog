@@ -2,12 +2,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', '@pinia/nuxt'],
   css: ['~/assets/css/main.css'],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   shadcn: {
     /**
      * Prefix for all the imported component
@@ -19,6 +21,7 @@ export default defineNuxtConfig({
      */
     componentDir: './components/ui'
   },
+
   app: {
     head: {
       charset: 'utf-8',
@@ -28,5 +31,7 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Find and join clubs at SITHS' }
       ]
     }
-  }
+  },
+
+  compatibilityDate: '2024-09-26'
 })
