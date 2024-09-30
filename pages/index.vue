@@ -44,11 +44,14 @@ function toggleCategory(category) {
   <div class="p-4 flex flex-col lg:flex-row gap-6">
     <!-- Sidebar for search and filters -->
     <div class="lg:w-1/3 w-full">
+      <label for="clubSearch" class="sr-only">Search for clubs</label>
       <div class="relative w-full">
         <input
+          id="clubSearch"
           placeholder="Search for clubs"
           class="border border-gray-300 pl-10 py-2 pr-14 rounded-lg w-full text-gray-600"
           v-model="clubSearch"
+          type="text"
         />
         <div class="absolute inset-y-0 left-3 flex items-center pointer-events-none">
           <i class="text-gray-500">
