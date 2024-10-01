@@ -164,8 +164,9 @@
       "Meeting Frequency": "Weekly",
       "Category": ["Cultural"]
   },
+
   {
-      "Club Name": "Chinese Culture Club",
+      "Club Name": "Chinese Language Club",
       "Club President(s)": "Eunice Wu & Ivy Chen",
       "Start After SING": "Yes",
       "Type": "Club",
@@ -242,7 +243,7 @@
       "Category": ["Arts & Crafts"]
   },
   {
-      "Club Name": "DECA/FBLA",
+      "Club Name": "DECA-FBLA",
       "Club President(s)": "Aaron Ye & Matthew Ayzin",
       "Start After SING": "No",
       "Type": "Club",

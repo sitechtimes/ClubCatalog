@@ -1,7 +1,6 @@
 {
   "name": "nuxt-app",
   "private": true,
-  
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev --host",
@@ -10,7 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.5.4",
+    "@pinia/nuxt": "^0.5.5",
     "@vueuse/core": "^10.7.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",

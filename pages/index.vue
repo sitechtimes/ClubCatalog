@@ -1,12 +1,18 @@
 <script setup>
 import clubs from "../public/data.json";
 import { Tags, Calendar, RefreshCw, Search } from "lucide-vue-next";
-import { ref } from "vue";
+import { ref, computed } from "vue";
+import { useGlobalStore } from "~/stores/global";
 
-const clubSearch = ref("");
+const clubsSearchGlobal = computed(() => {
+  return useGlobalStore().search
+})
+
+const clubSearch = ref(clubsSearchGlobal.value);
 const selectedCategories = ref([]);
 const selectedDays = ref([]);
 const meetingFrequencies = ref([]);
+const store = useGlobalStore();
 
 //create a ref with an actual link to all the filters
 const filterDiv = ref();
