@@ -224,7 +224,7 @@ function toggleMenu() {
 
     <!-- Club Catalog -->
     <main class="lg:w-2/3 w-full">
-      <h4 class="font-semibold text-xl mb-4 text-center border-b border-gray-400">Catalog</h4>
+      <h1 class="font-semibold text-xl mb-4 text-center border-b border-gray-400">Catalog</h1>
       <div v-for="club in clubs" :key="club">
         <div
           class="flex items-center gap-6 mb-7"
@@ -240,7 +240,7 @@ function toggleMenu() {
           />
           <div class="flex flex-col justify-between w-full">
             <div class="flex flex-col gap-3">
-              <h4 class="font-semibold text-lg">{{ club["Club Name"] }}</h4>
+              <h2 class="font-semibold text-lg">{{ club["Club Name"] }}</h2>
               <p class="text-sm">
                 No club description is currently available
                <!-- club description will go here -->
