@@ -14,7 +14,7 @@ with open(csv_file_path, mode='r', newline='', encoding='utf-8') as csvfile:
     for row in reader:
         # Convert the 'Category' field from a string to a list
         if 'Category' in row and row['Category']:
-            row['Category'] = [category.strip() for category in row['Category'].split(',')]
+            row['Category'] = [category.strip() for category in row['Category'].split('|')]
         else:
             row['Category'] = []
         
