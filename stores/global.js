@@ -2,12 +2,10 @@ import { defineStore } from 'pinia';
 
 export const useGlobalStore = defineStore('global', {
     state: () => ({
-        search: '',
+        searchStore: '',
+        selectedCategories: [],
+        selectedDays: [],
+        meetingFrequencies: [],
+        isMenuOpen: false
     }),
-
-    actions: {
-        setSearch(value) {
-            this.search = value
-        }
-    }
 })

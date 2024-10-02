@@ -59,7 +59,7 @@ try {
         <p class="text-gray-700 text-center lg:text-left flex sm:flex-row flex-col text-lg gap-3">
           <span>Room: <span class="font-semibold">{{ club["Room"] }}</span></span>
           <span>Meeting Day: <span class="font-semibold">{{ club["Day"] }}</span></span>
-          <span>Meeting Frequency: <span class="font-semibold">{{ club["Meeting Frequency"] }}</span></span>
+          <span>Meeting Frequency: <span class="font-semibold">{{ club["Frequency"] }}</span></span>
         </p>
       </div>
     </div>
@@ -97,7 +97,7 @@ try {
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
         <div class="flex flex-col">
-          <p class="font-semibold text-base">{{ club["Club Advisor"] }}</p>
+          <p class="font-semibold text-base">{{ club["Club Adviser"] }}</p>
           <p class="text-sm text-gray-600">Advisor</p>
         </div>
       </div>

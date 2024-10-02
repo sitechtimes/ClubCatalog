@@ -1,1091 +1,1522 @@
 [
-  {
-    "Club Name": "3D Printing Club",
-    "Club Advisor": "Buro",
-    "Club President(s)": "Firdavs Muqimtoshov",
-    "Room": 234,
-    "Start After SING": "Yes",
-    "Type": "Club",
-    "Day": "Wednesday",
-    "Meeting Frequency": "Once a Week",
-    "Category": ["STEM", "Special Interest/Hobbies"]
-  },
-  {
-      "Club Name": "Afro-Caribbean Culture Club",
-      "Club President(s)": "Meloundja Joseph & Autumn Hali Olamide",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "221",
-      "Club Advisor": "Aurelia",
-      "Day": "Friday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "AI Club",
-      "Club President(s)": "Pranaya Dhachina",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "311",
-      "Club Advisor": "Ushakova",
-      "Day": "Friday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["STEM"]
-  },
-  {
-      "Club Name": "American Sign Language Club",
-      "Club President(s)": "Priscilla Andes & June Ka",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "211",
-      "Club Advisor": "Olsen",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Special Interest/Hobbies", "Cultural"]
-  },
-  {
-      "Club Name": "Amnesty International Club",
-      "Club President(s)": "Justin Tam & Karley Ko",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "339",
-      "Club Advisor": "Michan",
-      "Day": "Friday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Anime Club",
-      "Club President(s)": "Yoyo Lin",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "317",
-      "Club Advisor": "Callahan",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Special Interest/Hobbies"]
-  },
-  {
-      "Club Name": "API Student Union",
-      "Club President(s)": "Kaylie (Zhuoying) Yu & Junxi Chen",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "323",
-      "Club Advisor": "Macula",
-      "Day": "Monday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Art Club",
-      "Club President(s)": "Dora Zhao",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "335",
-      "Club Advisor": "Sokolovski",
-      "Day": "Thursday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Arts & Crafts"]
-  },
-  {
-      "Club Name": "Arts and Crafts Club",
-      "Club President(s)": "Amanda Luo",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "339",
-      "Club Advisor": "Michan",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Once a Month",
-      "Category": ["Arts & Crafts"]
-  },
-  {
-      "Club Name": "Asian American Club",
-      "Club President(s)": "Jiaxin Chen",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "Dance Gym",
-      "Club Advisor": "Callahan",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "BE",
-      "Club President(s)": "Yifan Zheng",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "TBA",
-      "Club Advisor": "Nichols",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["STEM"]
-  },
-  {
-      "Club Name": "Book Club",
-      "Club President(s)": "Caroline Martin",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "339",
-      "Club Advisor": "Michan",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Literary"]
-  },
-  {
-      "Club Name": "Business in Sports",
-      "Club President(s)": "Daniel Belyayev & Nikolas Hudzovatyy",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "257",
-      "Club Advisor": "Lanza",
-      "Day": "Monday",
-      "Meeting Frequency": "Once a Month",
-      "Category": ["Leadership"]
-  },
-  {
-      "Club Name": "Chess Club",
-      "Club President(s)": "N/A",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "136",
-      "Club Advisor": "Goyco",
-      "Day": "Friday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Special Interest/Hobbies"]
-  },
-  {
-      "Club Name": "Chinese Culture Club",
-      "Club President(s)": "Vicky",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "Cafeteria",
-      "Club Advisor": "Maddaluna",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-
-  {
-      "Club Name": "Chinese Language Club",
-      "Club President(s)": "Eunice Wu & Ivy Chen",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "317",
-      "Club Advisor": "Callahan",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural", "Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Christian Seekers",
-      "Club President(s)": "Yostina Ayoub & Irene Li",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "257",
-      "Club Advisor": "Misciagna",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Community Service"]
-  },
-  {
-      "Club Name": "Coding Club",
-      "Club President(s)": "Maximilian Shabatayev",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "259",
-      "Club Advisor": "Geraghty",
-      "Day": "Friday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["STEM"]
-  },
-  {
-      "Club Name": "Coptic Club",
-      "Club President(s)": "Judy Shehata",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "317",
-      "Club Advisor": "Callahan",
-      "Day": "Monday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "Crochet Club",
-      "Club President(s)": "Katherine Chow & Karen Kovalcik",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "215",
-      "Club Advisor": "Asher",
-      "Day": "Monday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Arts & Crafts"]
-  },
-  {
-      "Club Name": "Dance Club",
-      "Club President(s)": "Tiffany Chen",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "Dance Gym",
-      "Club Advisor": "Callahan",
-      "Day": "Friday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Arts & Crafts"]
-  },
-  {
-      "Club Name": "Dance Team",
-      "Club President(s)": "Tasnim Ghoniem",
-      "Start After SING": "Yes",
-      "Type": "Team Club",
-      "Room": "Dance Gym",
-      "Club Advisor": "Luu",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Arts & Crafts"]
-  },
-  {
-      "Club Name": "DECA-FBLA",
-      "Club President(s)": "Aaron Ye & Matthew Ayzin",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "339",
-      "Club Advisor": "Michan",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Digital Art Club",
-      "Club President(s)": "Daria Golitsyna & Melanie Liu",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "334",
-      "Club Advisor": "Frazzetto",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Arts & Crafts"]
-  },
-  {
-    "Club Name": "Eastern European Club",
-    "Club President(s)": "Julianna Veretchak & Daryna Glum",
-    "Start After SING": "Yes",
-    "Type": "Club",
-    "Room": "334",
-    "Club Advisor": "Ratushnyuk",
-    "Day": "Thursday",
-    "Meeting Frequency": "Twice a Month",
-    "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "Electronics Club",
-      "Club President(s)": "N/A",
-      "Start After SING": "No",
-      "Type": "Program",
-      "Room": "Makerspace",
-      "Club Advisor": "Beigelman",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["STEM"]
-  },
-  {
-      "Club Name": "Esports Club",
-      "Club President(s)": "Anthony Chen & Pintong Chen",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "339",
-      "Club Advisor": "Frazzetto",
-      "Day": "Friday",
-      "Meeting Frequency": "Once a Month",
-      "Category": ["Special Interest/Hobbies"]
-  },
-  {
-      "Club Name": "Filipino Club",
-      "Club President(s)": "Marco Valerie & Priscilla Andes",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "225",
-      "Club Advisor": "Amoroso",
-      "Day": "Friday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "Forensic Science",
-      "Club President(s)": "Crystal Ngo & Veronica Kruk",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "256",
-      "Club Advisor": "Brandon",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["STEM", "Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Game Development Club",
-      "Club President(s)": "Leo Yang",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "237",
-      "Club Advisor": "Buro",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["STEM"]
-  },
-  {
-      "Club Name": "Girls Learn International (GLI)",
-      "Club President(s)": "Audrey Kim & Waiza Irshad",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "Undecided",
-      "Club Advisor": "Maddaluna",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Community Service"]
-  },
-  {
-      "Club Name": "Girls Who Code",
-      "Club President(s)": "Nicole Soltsov & Katie Khamarkhanova",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "259",
-      "Club Advisor": "Geraghty",
-      "Day": "Friday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["STEM", "Leadership"]
-  },
-  {
-      "Club Name": "Givology",
-      "Club President(s)": "Laura Guo",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "337",
-      "Club Advisor": "Peterson",
-      "Day": "Monday",
-      "Meeting Frequency": "Once a Month",
-      "Category": ["Community Service"]
-  },
-  {
-      "Club Name": "GJWHFR",
-      "Club President(s)": "Eshal Muzaffar",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "257",
-      "Club Advisor": "Lanza",
-      "Day": "Monday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Community Service"]
-  },
-  {
-      "Club Name": "Glee Club",
-      "Club President(s)": "Lila Donohue",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "317",
-      "Club Advisor": "Callahan",
-      "Day": "Monday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Arts & Crafts"]
-  },
-  {
-      "Club Name": "Global Economic Forum Club",
-      "Club President(s)": "Mehrangshoh Rustamzoda - President",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "321",
-      "Club Advisor": "Carr",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Academic/Intellectual", "Leadership"]
-  },{
-    "Club Name": "Golden Years For Love",
-    "Club President(s)": "N/A",
-    "Start After SING": "No",
-    "Type": "Club",
-    "Room": "243/237",
-    "Club Advisor": "Buro/Lane",
-    "Day": "Wednesday",
-    "Meeting Frequency": "Twice a Month",
-    "Category": ["Community Service"]
-  },
-  {
-      "Club Name": "Guitar Ensemble",
-      "Club President(s)": "Bryant Yuan & Wilson Poscablo",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "221",
-      "Club Advisor": "Aurelia",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Music"]
-  },
-  {
-      "Club Name": "Handwriting Club",
-      "Club President(s)": "Rachel Levin & Ocean Lin",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "334",
-      "Club Advisor": "Ratushnyuk",
-      "Day": "Thursday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Literary"]
-  },
-  {
-      "Club Name": "Hispanic Club",
-      "Club President(s)": "Anthony Ortiz",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "Dance Gym, Cafeteria",
-      "Club Advisor": "Luu",
-      "Day": "Thursday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "History Club",
-      "Club President(s)": "Isaac Lin & Clayton Leung",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "310",
-      "Club Advisor": "Sanbeg",
-      "Day": "Thursday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Academic/Intellectual"]
-  },
-  {
-      "Club Name": "History Team",
-      "Club President(s)": "Alexander Atanassov",
-      "Start After SING": "Yes",
-      "Type": "Team Club",
-      "Room": "310",
-      "Club Advisor": "Pagliaro",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Italian Club",
-      "Club President(s)": "Peri Sgambelluri",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "C37",
-      "Club Advisor": "Ferrigno",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "Japanese Culture Club",
-      "Club President(s)": "Hana Lauscher and Naomi Navarria as co-presidents.",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "208",
-      "Club Advisor": "Maddaluno",
-      "Day": "Monday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "Jewelry Club",
-      "Club President(s)": "Tina Zhen",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "311",
-      "Club Advisor": "Ushakova",
-      "Day": "Friday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Arts & Crafts"]
-  },
-  {
-      "Club Name": "Jewish Student Union (JSU)",
-      "Club President(s)": "Tzipora Guttman & Konstantin Maslov",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "315",
-      "Club Advisor": "Levina",
-      "Day": "Monday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural", "Community Service"]
-  },
-  {
-      "Club Name": "Kavkaz club",
-      "Club President(s)": "Maria Kosynskaya & Gabriella Shalmiyev",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "315",
-      "Club Advisor": "Levina",
-      "Day": "Friday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "Key Club",
-      "Club President(s)": "Jonathan Liu",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "Library or Cafeteria",
-      "Club Advisor": "Maddaluno",
-      "Day": "Monday",
-      "Meeting Frequency": "Once a Month",
-      "Category": ["Leadership", "Community Service"]
-  },
-  {
-      "Club Name": "Korean Culture Club",
-      "Club President(s)": "Jessica Zirong Ruan",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "Dance gym, Cafeteria",
-      "Club Advisor": "Luu",
-      "Day": "Thursday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-  {
-    "Club Name": "Laser Cutting",
-    "Club President(s)": "Junlin Li & Zhouying Yu",
-    "Start After SING": "No",
-    "Type": "Club",
-    "Room": "259",
-    "Club Advisor": "Geraghty",
-    "Day": "Thursday",
-    "Meeting Frequency": "Twice a Month",
-    "Category": ["Arts & Crafts", "STEM"]
-  },
-  {
-      "Club Name": "Literary Magazine",
-      "Club President(s)": "Casey Guan & Emma Kraja",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "329",
-      "Club Advisor": "Mannino",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Literary"]
-  },
-  {
-      "Club Name": "Medadvantage x Northwell Health",
-      "Club President(s)": "Emma Xiao",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "???",
-      "Club Advisor": "Labora",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Once a Month",
-      "Category": ["Health", "Community Service"]
-  },
-  {
-      "Club Name": "Model Rocketry Club",
-      "Club President(s)": "Kody Ng",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "259",
-      "Club Advisor": "Geraghty and Jax",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["STEM"]
-  },
-  {
-      "Club Name": "Music Production Club",
-      "Club President(s)": "Chris Feng",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "221",
-      "Club Advisor": "Aurelia",
-      "Day": "Thursday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Music"]
-  },
-  {
-      "Club Name": "Muslim Students Association (MSA)",
-      "Club President(s)": "Sameeha Saleem",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "317",
-      "Club Advisor": "Devine",
-      "Day": "Thursday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural", "Community Service"]
-  },
-  {
-      "Club Name": "My Brother's Keeper (MBK)",
-      "Club President(s)": "Antonio Ramirez",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "N/A",
-      "Club Advisor": "Luu",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Once a Month",
-      "Category": ["Community Service"]
-  },
-  {
-      "Club Name": "National Science Bowl",
-      "Club President(s)": "Mandy Zhang & Tiffany Brehker",
-      "Start After SING": "No",
-      "Type": "Team Club",
-      "Room": "227",
-      "Club Advisor": "Jax",
-      "Day": "Thursday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["STEM", "Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Neuroscience Club",
-      "Club President(s)": "Pranaya Dhachina & Emma Xiao",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "336",
-      "Club Advisor": "Mannino",
-      "Day": "Thursday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["STEM", "Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Origami Club",
-      "Club President(s)": "Kyle Pan",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "329",
-      "Club Advisor": "Wiley",
-      "Day": "Thursday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Arts & Crafts"]
-  },
-  {
-      "Club Name": "P.A.W. Club",
-      "Club President(s)": "Carrie Lee",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "215",
-      "Club Advisor": "Asher",
-      "Day": "Thursday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Community Service"]
-  },
-  {
-      "Club Name": "Pakistani Student Organization",
-      "Club President(s)": "Rohama Akhlaq",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "211",
-      "Club Advisor": "Chester",
-      "Day": "Friday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "Photography Club",
-      "Club President(s)": "Carrie Lee",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "334",
-      "Club Advisor": "Ratushnyuk",
-      "Day": "Thursday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Literary"]
-  },
-  {
-      "Club Name": "Physics Club",
-      "Club President(s)": "Daria Golitsyna & Shao Quan",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "210",
-      "Club Advisor": "Olsen",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["STEM", "Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Polish Heritage Club",
-      "Club President(s)": "Marie Khoury",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "335",
-      "Club Advisor": "Sokolovski",
-      "Day": "Thursday",
-      "Meeting Frequency": "Once a Month",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "Pre Law Society",
-      "Club President(s)": "Valeria Proekt & Evelina Dubovski",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "336",
-      "Club Advisor": "Federico",
-      "Day": "Thursday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Psychology Club",
-      "Club President(s)": "Naomi Navarria & Vivian Jung",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "227",
-      "Club Advisor": "D'Anna",
-      "Day": "Thursday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Rainbow Vision Club",
-      "Club President(s)": "Chloe Ou & Ashley Zhong",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "236",
-      "Club Advisor": "Rivera",
-      "Day": "Friday",
-      "Meeting Frequency": "Once a Month",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "Real World Readiness Club",
-      "Club President(s)": "Jonathan Chan",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "329",
-      "Club Advisor": "Wiley",
-      "Day": "Thursday",
-      "Meeting Frequency": "Once a Month",
-      "Category": ["Health", "Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Red Cross Club",
-      "Club President(s)": "Ashley Zhong",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "311",
-      "Club Advisor": "Ushakova",
-      "Day": "Thursday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Community Service", "Health"]
-  },
-  {
-      "Club Name": "Relay for Life",
-      "Club President(s)": "Jason-Runjie Fan",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "215",
-      "Club Advisor": "Asher",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Community Service", "Health"]
-  },
-  {
-      "Club Name": "RISE Hiphop & Kpop Club",
-      "Club President(s)": "Jessica Nguyen",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "Dance Gym",
-      "Club Advisor": "Callahan",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural", "Music", "Special Interest/Hobbies"]
-  },
-  {
-      "Club Name": "Road2STEM - Civiso",
-      "Club President(s)": "Angela Wang & Melina Mui",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "259",
-      "Club Advisor": "Geraghty",
-      "Day": "Thursday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["STEM"]
-  },
-  {
-      "Club Name": "Rotary Interact Club",
-      "Club President(s)": "Jannah Alsayid",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "329",
-      "Club Advisor": "Sanguinedo",
-      "Day": "Thursday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Community Service", "Leadership"]
-  },
-  {
-      "Club Name": "Russian Club",
-      "Club President(s)": "Kathrine Slepstov",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "315",
-      "Club Advisor": "Levina",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "Russian Tutoring Club",
-      "Club President(s)": "Abigail Aranovich & Sasha Belokon",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "310",
-      "Club Advisor": "Levina",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Academic/Intellectual"]
-  },
-  {
-      "Club Name": "SITHS ARL",
-      "Club President(s)": "Aaron Ye & Fiona Mui",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "C10",
-      "Club Advisor": "Henriques",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Once a Month",
-      "Category": ["Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Soap Smiles",
-      "Club President(s)": "Emma Xiao",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "Chem Lab",
-      "Club Advisor": "Fusaro-Pizzo & Labora",
-      "Day": "Monday",
-      "Meeting Frequency": "Once a Month",
-      "Category": ["Community Service"]
-  },
-  {
-      "Club Name": "South Asian Club",
-      "Club President(s)": "Rohama Akhlaq",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "cafeteria",
-      "Club Advisor": "Maddaluno",
-      "Day": "Thursday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "Sri Lankan Club",
-      "Club President(s)": "Vanessa Seneviratne & Nathuli Weinman",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "Outside the cafeteria",
-      "Club Advisor": "D'Anna",
-      "Day": "Friday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "SSIRC",
-      "Club President(s)": "Albert Berkovich",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "259",
-      "Club Advisor": "Jax",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "Stained Glass",
-      "Club President(s)": "N/A",
-      "Start After SING": "No",
-      "Type": "Program",
-      "Room": "Makerspace",
-      "Club Advisor": "Ravitz",
-      "Day": "Thursday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Arts & Crafts"]
-  },
-  {
-      "Club Name": "Sustainable Fashion Club",
-      "Club President(s)": "N/A",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "C10",
-      "Club Advisor": "Henriques",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Cultural", "Special Interest/Hobbies"]
-  },
-  {
-      "Club Name": "Tabletop Gaming Club",
-      "Club President(s)": "Benjamin Zanelli",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "Library",
-      "Club Advisor": "Davis",
-      "Day": "Friday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Special Interest/Hobbies"]
-  },
-  {
-      "Club Name": "Tech Science Times",
-      "Club President(s)": "N/A",
-      "Start After SING": "No",
-      "Type": "School Program",
-      "Room": "Library",
-      "Club Advisor": "Cavaliere",
-      "Day": "Monday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Literary", "STEM", "Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Tech Times School Newspaper",
-      "Club President(s)": "Ashley Li",
-      "Start After SING": "No",
-      "Type": "School Program",
-      "Room": "S.O. Room",
-      "Club Advisor": "Terrusa",
-      "Day": "Thursday",
-      "Meeting Frequency": "Once a Month",
-      "Category": ["Literary", "Academic/Intellectual"]
-  },
-  {
-      "Club Name": "The Flock-Hip Hop Dance Team",
-      "Club President(s)": "Preston Ng & Tasnim Ghoniem",
-      "Start After SING": "No",
-      "Type": "Team Club",
-      "Room": "Dance gym, Cafeteria",
-      "Club Advisor": "Luu",
-      "Day": "Friday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Music", "Special Interest/Hobbies"]
-  },
-  {
-      "Club Name": "The US Civics Club",
-      "Club President(s)": "Yazid Awad",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "323",
-      "Club Advisor": "Macula",
-      "Day": "Thursday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Tie-Dye",
-      "Club President(s)": "N/A",
-      "Start After SING": "No",
-      "Type": "Program",
-      "Room": "217",
-      "Club Advisor": "Ravitz",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Arts & Crafts"]
-  },
-  {
-      "Club Name": "TOP, Crystal Didea (Northwell Health)",
-      "Club President(s)": "N/A",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "129",
-      "Club Advisor": "Labora",
-      "Day": "Thursday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Health", "Community Service"]
-  },
-  {
-      "Club Name": "True Equality Alliance",
-      "Club President(s)": "President - Jessica Zheleznov",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "221",
-      "Club Advisor": "Aurelia",
-      "Day": "Thursday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Academic/Intellectual", "Cultural"]
-  },
-  {
-      "Club Name": "Ukrainian Club",
-      "Club President(s)": "Angelica Zinytche & Veronica Zinytche",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "315",
-      "Club Advisor": "Levina",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "USABO",
-      "Club President(s)": "Paul Mkrtichian & Aayan Shabbir",
-      "Start After SING": "No",
-      "Type": "School Program",
-      "Room": "236",
-      "Club Advisor": "Rivera",
-      "Day": "Tuesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["STEM"]
-  },
-  {
-      "Club Name": "Uzbekistani Club",
-      "Club President(s)": "Daniel Belyayev & Abby Khaskelzon",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "315",
-      "Club Advisor": "Levina",
-      "Day": "Thursday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "Vietnamese Student Association",
-      "Club President(s)": "Dieuhan Nguyen",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "321",
-      "Club Advisor": "Luu",
-      "Day": "Monday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["Cultural"]
-  },
-  {
-      "Club Name": "Voices of History Club",
-      "Club President(s)": "XuanTing Lin",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "323",
-      "Club Advisor": "Macula",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Cultural", "Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Window Painting",
-      "Club President(s)": "N/A",
-      "Start After SING": "No",
-      "Type": "Program",
-      "Room": "217",
-      "Club Advisor": "Ravitz",
-      "Day": "Wednesday",
-      "Meeting Frequency": "Weekly",
-      "Category": ["Arts & Crafts"]
-  },
-  {
-      "Club Name": "Women In STEM Club",
-      "Club President(s)": "N/A",
-      "Start After SING": "No",
-      "Type": "Club",
-      "Room": "243",
-      "Club Advisor": "Lane",
-      "Day": "Thursday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["STEM", "Academic/Intellectual"]
-  },
-  {
-      "Club Name": "Womens Health Club",
-      "Club President(s)": "N/A",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "256",
-      "Club Advisor": "Brandon",
-      "Day": "Thursday",
-      "Meeting Frequency": "Once a Month",
-      "Category": ["Health"]
-  },
-  {
-      "Club Name": "Young Leaders in Drug Discovery",
-      "Club President(s)": "Marie Khoury",
-      "Start After SING": "Yes",
-      "Type": "Club",
-      "Room": "211",
-      "Club Advisor": "Chester",
-      "Day": "Monday",
-      "Meeting Frequency": "Twice a Month",
-      "Category": ["STEM", "Leadership"]
-  }
+    {
+        "Club Name": "3D Printing Club",
+        "lib": "237",
+        "Club President(s)": "Firdavs Muqimtoshov",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "237",
+        "Club Adviser": "Buro",
+        "Day": "Wednesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "STEM",
+            "Arts & Crafts"
+        ]
+    },
+    {
+        "Club Name": "Afro-Caribbean Culture Club",
+        "lib": "225",
+        "Club President(s)": "Meloundja Joseph & Autumn Hali Olamide",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "221",
+        "Club Adviser": "Aurelia",
+        "Day": "Friday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural",
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "AI Club",
+        "lib": "311",
+        "Club President(s)": "Pranaya Dhachina",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "311",
+        "Club Adviser": "Ushakova",
+        "Day": "Friday",
+        "Frequency": "Weekly",
+        "Category": [
+            "STEM",
+            "Academic/Intellectual"
+        ]
+    },
+    {
+        "Club Name": "American Sign Language Club",
+        "lib": "210",
+        "Club President(s)": "Priscilla Andes & June Ka",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "211",
+        "Club Adviser": "Olsen",
+        "Day": "Wednesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural",
+            "Health"
+        ]
+    },
+    {
+        "Club Name": "Amnesty International Club",
+        "lib": "339",
+        "Club President(s)": "Justin Tam & Karley Ko",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "339",
+        "Club Adviser": "Michan",
+        "Day": "Friday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Leadership",
+            "Community Service",
+            "Special Interest/Hobbies"
+        ]
+    },
+    {
+        "Club Name": "Anime Club",
+        "lib": "321",
+        "Club President(s)": "Yoyo Lin",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "317",
+        "Club Adviser": "Callahan",
+        "Day": "Tuesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Special Interest/Hobbies"
+        ]
+    },
+    {
+        "Club Name": "API Student Union",
+        "lib": "325",
+        "Club President(s)": "Kaylie (Zhuoying) Yu & Junxi Chen",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "323",
+        "Club Adviser": "Macula",
+        "Day": "Monday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Cultural",
+            "Leadership",
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "Art Club",
+        "lib": "335",
+        "Club President(s)": "Dora Zhao",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "335",
+        "Club Adviser": "Sokolovski",
+        "Day": "Thursday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Arts & Crafts",
+            "Special Interest/Hobbies",
+            "Academic/Intellectual"
+        ]
+    },
+    {
+        "Club Name": "Arts and Crafts Club",
+        "lib": "339",
+        "Club President(s)": "Amanda Luo",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "339",
+        "Club Adviser": "Michan",
+        "Day": "Tuesday",
+        "Frequency": "Once a Month",
+        "Category": [
+            "Arts & Crafts"
+        ]
+    },
+    {
+        "Club Name": "Asian American Club",
+        "lib": "317",
+        "Club President(s)": "Jiaxin Chen",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "Dance Gym",
+        "Club Adviser": "Callahan",
+        "Day": "Wednesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural",
+            "Leadership",
+            "Community Service",
+            "Health"
+        ]
+    },
+    {
+        "Club Name": "Balkan Club",
+        "lib": "335",
+        "Club President(s)": "Ece Ulker",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "335",
+        "Club Adviser": "Sokolovski",
+        "Day": "Thursday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Cultural",
+            "Special Interest/Hobbies"
+        ]
+    },
+    {
+        "Club Name": "BE",
+        "lib": "Cafeteria Row 1 Table 1",
+        "Club President(s)": "Yifan Zheng",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "TBA",
+        "Club Adviser": "Nichols",
+        "Day": "Wednesday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "STEM",
+            "Academic/Intellectual",
+            "Leadership"
+        ]
+    },
+    {
+        "Club Name": "Book Club",
+        "lib": "lib",
+        "Club President(s)": "Caroline Martin",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "339",
+        "Club Adviser": "Michan",
+        "Day": "Wednesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Literary",
+            "Academic/Intellectual"
+        ]
+    },
+    {
+        "Club Name": "Business in Sports",
+        "lib": "257",
+        "Club President(s)": "Daniel Belyayev & Nikolas Hudzovatyy",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "257",
+        "Club Adviser": "Lanza",
+        "Day": "Monday",
+        "Frequency": "Once a Month",
+        "Category": [
+            "STEM",
+            "Leadership",
+            "Special Interest/Hobbies"
+        ]
+    },
+    {
+        "Club Name": "Chess Club",
+        "lib": "136",
+        "Club President(s)": "",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "136",
+        "Club Adviser": "Goyco",
+        "Day": "Friday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Academic/Intellectual",
+            "Special Interest/Hobbies"
+        ]
+    },
+    {
+        "Club Name": "Chinese Culture Club",
+        "lib": "Cafeteria Row 1 Table 4",
+        "Club President(s)": "Vicky",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "Cafeteria",
+        "Club Adviser": "Maddaluno",
+        "Day": "Tuesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural",
+            "Leadership"
+        ]
+    },
+    {
+        "Club Name": "Chinese Language Club",
+        "lib": "321",
+        "Club President(s)": "Eunice Wu & Ivy Chen",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "317",
+        "Club Adviser": "Callahan",
+        "Day": "Tuesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural",
+            "Literary"
+        ]
+    },
+    {
+        "Club Name": "Christian Seekers",
+        "lib": "257",
+        "Club President(s)": "Yostina Ayoub & Irene Li",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "257",
+        "Club Adviser": "Misciagna",
+        "Day": "Wednesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Special Interest/Hobbies"
+        ]
+    },
+    {
+        "Club Name": "Coding Club",
+        "lib": "Cafeteria Row 1 Table 2",
+        "Club President(s)": "Maximilian Shabatayev",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "259",
+        "Club Adviser": "Geraghty",
+        "Day": "Friday",
+        "Frequency": "Weekly",
+        "Category": [
+            "STEM",
+            "Academic/Intellectual"
+        ]
+    },
+    {
+        "Club Name": "Coptic Club",
+        "lib": "321",
+        "Club President(s)": "Judy Shehata",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "317",
+        "Club Adviser": "Callahan",
+        "Day": "Monday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Cultural",
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "Crochet Club",
+        "lib": "215",
+        "Club President(s)": "Katherine Chow & Karen Kovalcik",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "215",
+        "Club Adviser": "Asher",
+        "Day": "Monday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Arts & Crafts",
+            "Health"
+        ]
+    },
+    {
+        "Club Name": "Dance Club",
+        "lib": "317",
+        "Club President(s)": "Tiffany Chen",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "Dance Gym",
+        "Club Adviser": "Callahan",
+        "Day": "Friday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Arts & Crafts",
+            "Health",
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "Dance Team",
+        "lib": "Cafeteria Row 3 Table 2",
+        "Club President(s)": "Tasnim Ghoniem",
+        "Start After SING": "Yes",
+        "Type": "Team Club",
+        "Room": "Dance Gym",
+        "Club Adviser": "Luu",
+        "Day": "Wednesday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Arts & Crafts",
+            "Leadership"
+        ]
+    },
+    {
+        "Club Name": "DECA-FBLA",
+        "lib": "339",
+        "Club President(s)": "Aaron Ye & Matthew Ayzin",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "339",
+        "Club Adviser": "Michan",
+        "Day": "Tuesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "STEM",
+            "Leadership",
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "Digital Art Club",
+        "lib": "337",
+        "Club President(s)": "Daria Golitsyna & Melanie Liu",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "334",
+        "Club Adviser": "Frazzetto",
+        "Day": "Monday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Arts & Crafts",
+            "Special Interest/Hobbies",
+            "Academic/Intellectual"
+        ]
+    },
+    {
+        "Club Name": "Eastern European Club",
+        "lib": "334",
+        "Club President(s)": "Julianna Veretchak & Daryna Glum",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "334",
+        "Club Adviser": "Ratushnyuk",
+        "Day": "Thursday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Cultural",
+            "Special Interest/Hobbies"
+        ]
+    },
+    {
+        "Club Name": "Electronics Club",
+        "lib": "Cafeteria Row 2 Table 1",
+        "Club President(s)": "",
+        "Start After SING": "No",
+        "Type": "Program",
+        "Room": "Makerspace",
+        "Club Adviser": "Beigelman",
+        "Day": "Tuesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "STEM",
+            "Special Interest/Hobbies"
+        ]
+    },
+    {
+        "Club Name": "Envirothon",
+        "lib": "256",
+        "Club President(s)": "Karley Ko",
+        "Start After SING": "No",
+        "Type": "Team Club",
+        "Room": "258",
+        "Club Adviser": "Toner",
+        "Day": "Thursday",
+        "Frequency": "",
+        "Category": [
+            "STEM",
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "Esports Club",
+        "lib": "337",
+        "Club President(s)": "Anthony Chen & Pintong Chen",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "339",
+        "Club Adviser": "Frazzetto",
+        "Day": "Friday",
+        "Frequency": "Once a Month",
+        "Category": [
+            "STEM",
+            "Special Interest/Hobbies"
+        ]
+    },
+    {
+        "Club Name": "Filipino Club",
+        "lib": "225",
+        "Club President(s)": "Marco Valerie & Priscilla Andes",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "225",
+        "Club Adviser": "Amoroso",
+        "Day": "Friday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural",
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "Finance Club",
+        "lib": "lib",
+        "Club President(s)": "Shao Quan Wang & Aidin Marke",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "221",
+        "Club Adviser": "Siozios",
+        "Day": "Tuesday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "STEM",
+            "Leadership",
+            "Academic/Intellectual"
+        ]
+    },
+    {
+        "Club Name": "Forensic Science",
+        "lib": "256",
+        "Club President(s)": "Crystal Ngo & Veronica Kruk",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "256",
+        "Club Adviser": "Brandon",
+        "Day": "Tuesday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "STEM",
+            "Academic/Intellectual"
+        ]
+    },
+    {
+        "Club Name": "Game Development Club",
+        "lib": "237",
+        "Club President(s)": "Leo Yang",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "237",
+        "Club Adviser": "Buro",
+        "Day": "Wednesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "STEM",
+            "Special Interest/Hobbies"
+        ]
+    },
+    {
+        "Club Name": "Girls Learn International (GLI)",
+        "lib": "Cafeteria Row 1 Table 5",
+        "Club President(s)": "Audrey Kim & Waiza Irshad",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "Undecided",
+        "Club Adviser": "Maddaluno",
+        "Day": "Wednesday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Leadership",
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "Girls Who Code",
+        "lib": "Cafeteria Row 2 Table 2",
+        "Club President(s)": "Nicole Soltsov & Katie Khamarkhanova",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "259",
+        "Club Adviser": "Geraghty",
+        "Day": "Friday",
+        "Frequency": "Weekly",
+        "Category": [
+            "STEM",
+            "Leadership",
+            "Health"
+        ]
+    },
+    {
+        "Club Name": "Givology",
+        "lib": "337",
+        "Club President(s)": "Laura Guo",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "337",
+        "Club Adviser": "Peterson",
+        "Day": "Monday",
+        "Frequency": "Once a Month",
+        "Category": [
+            "Community Service",
+            "Special Interest/Hobbies"
+        ]
+    },
+    {
+        "Club Name": "GJWHFR",
+        "lib": "257",
+        "Club President(s)": "Eshal Muzaffar",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "257",
+        "Club Adviser": "Lanza",
+        "Day": "Monday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Community Service",
+            "Health"
+        ]
+    },
+    {
+        "Club Name": "Glee Club",
+        "lib": "310",
+        "Club President(s)": "Lila Donohue",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "317",
+        "Club Adviser": "Callahan",
+        "Day": "Monday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Arts & Crafts"
+        ]
+    },
+    {
+        "Club Name": "Global Economic Forum Club",
+        "lib": "325",
+        "Club President(s)": "Mehrangshoh Rustamzoda",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "321",
+        "Club Adviser": "Carr",
+        "Day": "Wednesday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Academic/Intellectual",
+            "Leadership",
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "Golden Years For Love",
+        "lib": "243",
+        "Club President(s)": "",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "243/237",
+        "Club Adviser": "Buro/Lane",
+        "Day": "Wednesday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Community Service",
+            "Health"
+        ]
+    },
+    {
+        "Club Name": "Guitar Ensemble",
+        "lib": "221",
+        "Club President(s)": "Bryant Yuan & Wilson Poscablo",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "221",
+        "Club Adviser": "Aurelia",
+        "Day": "Tuesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Arts & Crafts"
+        ]
+    },
+    {
+        "Club Name": "Handwriting Club",
+        "lib": "334",
+        "Club President(s)": "Rachel Levin & Ocean Lin",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "334",
+        "Club Adviser": "Ratushnyuk",
+        "Day": "Thursday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Arts & Crafts",
+            "Special Interest/Hobbies"
+        ]
+    },
+    {
+        "Club Name": "Hispanic Club",
+        "lib": "Cafeteria Row 3 Table 3",
+        "Club President(s)": "Anthony Ortiz",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "Dance Gym, Cafeteria",
+        "Club Adviser": "Luu",
+        "Day": "Thursday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural",
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "History Club",
+        "lib": "310",
+        "Club President(s)": "Isaac Lin & Clayton Leung",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "310",
+        "Club Adviser": "Sanbeg",
+        "Day": "Thursday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Academic/Intellectual",
+            "Special Interest/Hobbies"
+        ]
+    },
+    {
+        "Club Name": "History Team",
+        "lib": "310",
+        "Club President(s)": "Alexander Atanassov",
+        "Start After SING": "Yes",
+        "Type": "Team Club",
+        "Room": "310",
+        "Club Adviser": "Pagliaro",
+        "Day": "Wednesday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Academic/Intellectual",
+            "Leadership"
+        ]
+    },
+    {
+        "Club Name": "Italian Club",
+        "lib": "Cafeteria Row 2 Table 5",
+        "Club President(s)": "Peri Sgambelluri",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "C37",
+        "Club Adviser": "Ferrigno",
+        "Day": "Tuesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural",
+            "Arts & Crafts"
+        ]
+    },
+    {
+        "Club Name": "Japanese Culture Club",
+        "lib": "Cafeteria Row 1 Table 6",
+        "Club President(s)": "Hana Lauscher & Naomi Navarria",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "208",
+        "Club Adviser": "Maddaluno",
+        "Day": "Monday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural",
+            "Literary",
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "Jewelry Club",
+        "lib": "311",
+        "Club President(s)": "Tina Zhen",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "311",
+        "Club Adviser": "Ushakova",
+        "Day": "Friday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Arts & Crafts"
+        ]
+    },
+    {
+        "Club Name": "Jewish Student Union (JSU)",
+        "lib": "313",
+        "Club President(s)": "Tzipora Guttman & Konstantin Maslov",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "315",
+        "Club Adviser": "Levina",
+        "Day": "Monday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural",
+            "Community Service",
+            "Leadership"
+        ]
+    },
+    {
+        "Club Name": "Kavkaz Club",
+        "lib": "313",
+        "Club President(s)": "Maria Kosynskaya & Gabriella Shalmiyev",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "315",
+        "Club Adviser": "Levina",
+        "Day": "Friday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural",
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "Key Club",
+        "lib": "Cafeteria Row 1 Table 8",
+        "Club President(s)": "Jonathan Liu",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "Library or Cafeteria",
+        "Club Adviser": "Maddaluno",
+        "Day": "Monday",
+        "Frequency": "Once a Month",
+        "Category": [
+            "Leadership",
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "Korean Culture Club",
+        "lib": "Cafeteria Row 3 Table 4",
+        "Club President(s)": "Jessica Zirong Ruan",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "Dance gym, Cafeteria",
+        "Club Adviser": "Luu",
+        "Day": "Thursday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural",
+            "Special Interest/Hobbies"
+        ]
+    },
+    {
+        "Club Name": "Laser Cutting",
+        "lib": "Cafeteria Row 1 Table 3",
+        "Club President(s)": "Junlin Li & Zhouying Yu",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "259",
+        "Club Adviser": "Geraghty",
+        "Day": "Thursday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "STEM",
+            "Arts & Crafts"
+        ]
+    },
+    {
+        "Club Name": "Literary Magazine",
+        "lib": "336",
+        "Club President(s)": "Casey Guan & Emma Kraja",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "329",
+        "Club Adviser": "Mannino",
+        "Day": "Wednesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Literary"
+        ]
+    },
+    {
+        "Club Name": "Medadvantage x Northwell Health",
+        "lib": "129",
+        "Club President(s)": "Emma Xiao",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "???",
+        "Club Adviser": "Labora",
+        "Day": "Tuesday",
+        "Frequency": "Once a Month",
+        "Category": [
+            "Health"
+        ]
+    },
+    {
+        "Club Name": "MENA",
+        "lib": "210",
+        "Club President(s)": "Lillian Zghaib",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "210",
+        "Club Adviser": "Olsen",
+        "Day": "Wednesday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Cultural"
+        ]
+    },
+    {
+        "Club Name": "Model Rocketry Club",
+        "lib": "Cafeteria Row 2 Table 3",
+        "Club President(s)": "Kody Ng",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "259",
+        "Club Adviser": "Geraghty and Jax",
+        "Day": "Tuesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "STEM"
+        ]
+    },
+    {
+        "Club Name": "Music Production Club",
+        "lib": "221",
+        "Club President(s)": "Chris Feng",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "221",
+        "Club Adviser": "Aurelia",
+        "Day": "Thursday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Music"
+        ]
+    },
+    {
+        "Club Name": "Muslim Students Association (MSA)",
+        "lib": "136",
+        "Club President(s)": "Sameeha Saleem",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "317",
+        "Club Adviser": "Devine",
+        "Day": "Thursday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural"
+        ]
+    },
+    {
+        "Club Name": "My Brother's Keeper (MBK)",
+        "lib": "Cafeteria Row 3 Table 5",
+        "Club President(s)": "Antonio Ramirez",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "N/A",
+        "Club Adviser": "Luu",
+        "Day": "Wednesday",
+        "Frequency": "Once a Month",
+        "Category": [
+            "Leadership"
+        ]
+    },
+    {
+        "Club Name": "My Sister's Keeper (MSK)",
+        "lib": "243",
+        "Club President(s)": "Haashne Pragash",
+        "Start After SING": "No",
+        "Type": "Program",
+        "Room": "257",
+        "Club Adviser": "Pisano",
+        "Day": "Monday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Health"
+        ]
+    },
+    {
+        "Club Name": "National Science Bowl",
+        "lib": "227",
+        "Club President(s)": "Mandy Zhang & Tiffany Brehker",
+        "Start After SING": "No",
+        "Type": "Team Club",
+        "Room": "227",
+        "Club Adviser": "Jax",
+        "Day": "Thursday",
+        "Frequency": "Weekly",
+        "Category": [
+            "STEM"
+        ]
+    },
+    {
+        "Club Name": "Neuroscience Club",
+        "lib": "336",
+        "Club President(s)": "Pranaya Dhachina & Emma Xiao",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "336",
+        "Club Adviser": "Mannino",
+        "Day": "Thursday",
+        "Frequency": "Weekly",
+        "Category": [
+            "STEM"
+        ]
+    },
+    {
+        "Club Name": "Origami Club",
+        "lib": "329",
+        "Club President(s)": "Kyle Pan",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "329",
+        "Club Adviser": "Wiley",
+        "Day": "Thursday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Arts & Crafts"
+        ]
+    },
+    {
+        "Club Name": "P.A.W. Club",
+        "lib": "215",
+        "Club President(s)": "Carrie Lee",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "215",
+        "Club Adviser": "Asher",
+        "Day": "Thursday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Health",
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "Pakistani Student Organization",
+        "lib": "211",
+        "Club President(s)": "Rohama Akhlaq",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "211",
+        "Club Adviser": "Chester",
+        "Day": "Friday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural"
+        ]
+    },
+    {
+        "Club Name": "Photography Club",
+        "lib": "334",
+        "Club President(s)": "Carrie Lee",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "334",
+        "Club Adviser": "Ratushnyuk",
+        "Day": "Thursday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Arts & Crafts"
+        ]
+    },
+    {
+        "Club Name": "Physics Club",
+        "lib": "210",
+        "Club President(s)": "Daria Golitsyna & Shao Quan",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "210",
+        "Club Adviser": "Olsen",
+        "Day": "Wednesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "STEM"
+        ]
+    },
+    {
+        "Club Name": "Polish Heritage Club",
+        "lib": "335",
+        "Club President(s)": "Marie Khoury",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "335",
+        "Club Adviser": "Sokolovski",
+        "Day": "Thursday",
+        "Frequency": "Once a Month",
+        "Category": [
+            "Cultural"
+        ]
+    },
+    {
+        "Club Name": "Pre Law Society",
+        "lib": "336",
+        "Club President(s)": "Valeria Proekt & Evelina Dubovski",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "336",
+        "Club Adviser": "Federico",
+        "Day": "Thursday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Academic/Intellectual"
+        ]
+    },
+    {
+        "Club Name": "Psychology Club",
+        "lib": "227",
+        "Club President(s)": "Naomi Navarria & Vivian Jung",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "227",
+        "Club Adviser": "D'Anna",
+        "Day": "Thursday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Academic/Intellectual"
+        ]
+    },
+    {
+        "Club Name": "Rainbow Vision Club ",
+        "lib": "236",
+        "Club President(s)": "Chloe Ou & Ashley Zhong",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "236",
+        "Club Adviser": "Rivera",
+        "Day": "Friday",
+        "Frequency": "Once a Month",
+        "Category": [
+            "LGBTQ+"
+        ]
+    },
+    {
+        "Club Name": "Real World Readiness Club",
+        "lib": "329",
+        "Club President(s)": "Jonathan Chan",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "329",
+        "Club Adviser": "Wiley",
+        "Day": "Thursday",
+        "Frequency": "Once a Month",
+        "Category": [
+            "Leadership"
+        ]
+    },
+    {
+        "Club Name": "Red Cross Club",
+        "lib": "311",
+        "Club President(s)": "Ashley Zhong",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "311",
+        "Club Adviser": "Ushakova ",
+        "Day": "Thursday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "Relay for Life",
+        "lib": "215",
+        "Club President(s)": "Jason-Runjie Fan",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "215",
+        "Club Adviser": "Asher",
+        "Day": "Wednesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Health"
+        ]
+    },
+    {
+        "Club Name": "RISE Hiphop & Kpop Club",
+        "lib": "317",
+        "Club President(s)": "Jessica Nguyen",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "Dance Gym",
+        "Club Adviser": "Callahan",
+        "Day": "Tuesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Arts & Crafts"
+        ]
+    },
+    {
+        "Club Name": "Road2STEM - Civiso",
+        "lib": "Cafeteria Row 2 Table 4",
+        "Club President(s)": "Angela Wang & Melina Mui",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "259",
+        "Club Adviser": "Geraghty",
+        "Day": "Thursday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "STEM"
+        ]
+    },
+    {
+        "Club Name": "Rotary Interact Club",
+        "lib": "Cafeteria Row 3 Table 8",
+        "Club President(s)": "Jannah Alsayid",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "329",
+        "Club Adviser": "Sanguinedo",
+        "Day": "Thursday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Community Service"
+        ]
+    },
+    {
+        "Club Name": "Russian Club ",
+        "lib": "315",
+        "Club President(s)": "Kathrine Slepstov",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "315",
+        "Club Adviser": "Levina",
+        "Day": "Wednesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural"
+        ]
+    },
+    {
+        "Club Name": "Russian Tutoring Club",
+        "lib": "313",
+        "Club President(s)": "Abigail Aranovich & Sasha Belokon",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "310",
+        "Club Adviser": "Levina",
+        "Day": "Tuesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural"
+        ]
+    },
+    {
+        "Club Name": "SITHS ARL",
+        "lib": "Cafeteria Row 2 Table 6",
+        "Club President(s)": "Aaron Ye & Fiona Mui",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "C10",
+        "Club Adviser": "Henriques",
+        "Day": "Wednesday",
+        "Frequency": "Once a Month",
+        "Category": [
+            "STEM"
+        ]
+    },
+    {
+        "Club Name": "Soap Smiles",
+        "lib": "129",
+        "Club President(s)": "Emma Xiao",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "Chem Lab",
+        "Club Adviser": "Fusaro-Pizzo & Labora",
+        "Day": "Monday",
+        "Frequency": "Once a Month",
+        "Category": [
+            "Health"
+        ]
+    },
+    {
+        "Club Name": "South Asian Club ",
+        "lib": "Cafeteria Row 1 Table 7",
+        "Club President(s)": "Rohama Akhlaq",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "cafeteria ",
+        "Club Adviser": "Maddaluno ",
+        "Day": "Thursday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural"
+        ]
+    },
+    {
+        "Club Name": "Sri Lankan Club",
+        "lib": "225",
+        "Club President(s)": "Vanessa Seneviratne & Nathuli Weinman",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "Outside the cafeteria",
+        "Club Adviser": "D'Anna",
+        "Day": "Friday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural"
+        ]
+    },
+    {
+        "Club Name": "SSIRC",
+        "lib": "227",
+        "Club President(s)": "Albert Berkovich",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "259",
+        "Club Adviser": "Jax",
+        "Day": "Tuesday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Academic/Intellectual"
+        ]
+    },
+    {
+        "Club Name": "Stained Glass",
+        "lib": "217",
+        "Club President(s)": "",
+        "Start After SING": "No",
+        "Type": "Program",
+        "Room": "Makerspace",
+        "Club Adviser": "Ravitz",
+        "Day": "Thursday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Arts & Crafts"
+        ]
+    },
+    {
+        "Club Name": "Sustainable Fashion Club",
+        "lib": "Cafeteria Row 2 Table 7",
+        "Club President(s)": "",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "C10",
+        "Club Adviser": "Henriques",
+        "Day": "Wednesday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Fashion"
+        ]
+    },
+    {
+        "Club Name": "Tabletop Gaming Club",
+        "lib": "Cafeteria Row 2 Table 8",
+        "Club President(s)": "Benjamin Zanelli",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "Library",
+        "Club Adviser": "Davis",
+        "Day": "Friday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Hobbies"
+        ]
+    },
+    {
+        "Club Name": "Tech Science Times",
+        "lib": "lib",
+        "Club President(s)": "",
+        "Start After SING": "No",
+        "Type": "School Program",
+        "Room": "Library",
+        "Club Adviser": "Cavaliere",
+        "Day": "Monday",
+        "Frequency": "Weekly",
+        "Category": [
+            "School"
+        ]
+    },
+    {
+        "Club Name": "Tech Times School Newspaper",
+        "lib": "Cafeteria Row 3 Table 1",
+        "Club President(s)": "Ashley Li",
+        "Start After SING": "No",
+        "Type": "School Program",
+        "Room": "S.O. Room",
+        "Club Adviser": "Terrusa",
+        "Day": "Thursday",
+        "Frequency": "Once a Month",
+        "Category": [
+            "School"
+        ]
+    },
+    {
+        "Club Name": "The Flock-Hip Hop Dance Team ",
+        "lib": "Cafeteria Row 3 Table 6",
+        "Club President(s)": "Preston Ng & Tasnim Ghoniem",
+        "Start After SING": "No",
+        "Type": "Team Club",
+        "Room": "Dance gym, Cafeteria",
+        "Club Adviser": "Luu",
+        "Day": "Friday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Arts & Crafts",
+            "Dance"
+        ]
+    },
+    {
+        "Club Name": "The US Civics Club  ",
+        "lib": "323",
+        "Club President(s)": "Yazid Awad",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "323",
+        "Club Adviser": "Macula",
+        "Day": "Thursday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Academic/Intellectual"
+        ]
+    },
+    {
+        "Club Name": "Tie-Dye",
+        "lib": "217",
+        "Club President(s)": "",
+        "Start After SING": "No",
+        "Type": "Program",
+        "Room": "217",
+        "Club Adviser": "Ravitz",
+        "Day": "Tuesday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Arts & Crafts"
+        ]
+    },
+    {
+        "Club Name": "TOP (North well Health )",
+        "lib": "129",
+        "Club President(s)": "",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "129",
+        "Club Adviser": "Labora",
+        "Day": "Thursday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Health"
+        ]
+    },
+    {
+        "Club Name": "True Equality Alliance ",
+        "lib": "221",
+        "Club President(s)": "President - Jessica Zheleznov",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "221",
+        "Club Adviser": "Aurelia",
+        "Day": "Thursday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Leadership"
+        ]
+    },
+    {
+        "Club Name": "Ukrainian Club ",
+        "lib": "315",
+        "Club President(s)": "Angelica Zinytche & Veronica Zinytche ",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "315",
+        "Club Adviser": "Levina",
+        "Day": "Wednesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural"
+        ]
+    },
+    {
+        "Club Name": "USABO",
+        "lib": "236",
+        "Club President(s)": "Paul Mkrtichian & Aayan Shabbir",
+        "Start After SING": "No",
+        "Type": "School Program",
+        "Room": "236",
+        "Club Adviser": "Rivera",
+        "Day": "Tuesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Academic/Intellectual"
+        ]
+    },
+    {
+        "Club Name": "Uzbekistani Club",
+        "lib": "315",
+        "Club President(s)": "Daniel Belyayev & Abby Khaskelzon",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "315",
+        "Club Adviser": "Levina",
+        "Day": "Thursday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Cultural"
+        ]
+    },
+    {
+        "Club Name": "Vietnamese Student Association",
+        "lib": "Cafeteria Row 3 Table 7",
+        "Club President(s)": "Dieuhan Nguyen",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "321",
+        "Club Adviser": "Luu",
+        "Day": "Monday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "Cultural"
+        ]
+    },
+    {
+        "Club Name": "Voices of History Club",
+        "lib": "323",
+        "Club President(s)": "XuanTing Lin",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "323",
+        "Club Adviser": "Macula",
+        "Day": "Wednesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "History"
+        ]
+    },
+    {
+        "Club Name": "Window Painting",
+        "lib": "217",
+        "Club President(s)": "",
+        "Start After SING": "No",
+        "Type": "Program",
+        "Room": "217",
+        "Club Adviser": "Ravitz",
+        "Day": "Wednesday",
+        "Frequency": "Weekly",
+        "Category": [
+            "Arts & Crafts"
+        ]
+    },
+    {
+        "Club Name": "Women In STEM Club",
+        "lib": "243",
+        "Club President(s)": "",
+        "Start After SING": "No",
+        "Type": "Club",
+        "Room": "243",
+        "Club Adviser": "Lane",
+        "Day": "Thursday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "STEM"
+        ]
+    },
+    {
+        "Club Name": "Womens Health Club ",
+        "lib": "256",
+        "Club President(s)": "",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "256",
+        "Club Adviser": "Brandon",
+        "Day": "Thursday",
+        "Frequency": "Once a Month",
+        "Category": [
+            "Health"
+        ]
+    },
+    {
+        "Club Name": "Young Leaders in Drug Discovery",
+        "lib": "211",
+        "Club President(s)": "Marie Khoury",
+        "Start After SING": "Yes",
+        "Type": "Club",
+        "Room": "211",
+        "Club Adviser": "Chester",
+        "Day": "Monday",
+        "Frequency": "Twice a Month",
+        "Category": [
+            "STEM"
+        ]
+    }
 ]
