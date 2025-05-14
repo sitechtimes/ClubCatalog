@@ -4,6 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import data from '@/public/data.json'
 import { ref } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
+import clubs from '@/assets/ClubInfo/clubs.json'
 
 const route = useRoute()
 
@@ -26,6 +27,7 @@ let coVnoco = "Co-Presidents"
 
 try {
   const clubData = data.find(club => club["Club Name"].toLowerCase().replace(/\s/g, '') === route.params.name)
+  console.log(clubData)
   if (!clubData) throw new Error('Club not found'); 
   club = clubData;
 
@@ -75,7 +77,7 @@ try {
     <div class="w-full lg:w-1/2">
       <h3 class="text-lg font-semibold mb-2">About Us</h3>
       <p class="mb-4">
-        <!-- club description will go here -->
+        {{ clubs.find(club => club["Club Name"].toLowerCase().replace(/\s/g, '') === route.params.name)}}
       </p>
       <h3 class="text-lg font-semibold mb-2">Leaders</h3>
       <div class="flex flex-col gap-4">
