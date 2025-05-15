@@ -1,67 +1,95 @@
 <script setup>
-import { ChevronLeft } from "lucide-vue-next"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import data from '@/public/data.json'
-import { ref } from 'vue'
-import { useRouter, useRoute } from 'vue-router'
-import clubs from '@/assets/ClubInfo/clubs.json'
+import { ChevronLeft } from "lucide-vue-next";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import data from "@/public/data.json";
+import { ref } from "vue";
+import { useRouter, useRoute } from "vue-router";
+import clubs from "../public/clubsInfo.json";
 
-const route = useRoute()
+const route = useRoute();
 
 let club = {
-      "Club Name": "NA",
-      "Club President(s)": "NA",
-      "Start After SING": "NA",
-      "Type": "NA",
-      "Room": "NA",
-      "Club Advisor": "NA",
-      "Day": "NA",
-      "Meeting Frequency": "NA",
-      "Category": ["NA"]
-  }
+  "Club Name": "NA",
+  "Club President(s)": "NA",
+  "Start After SING": "NA",
+  Type: "NA",
+  Room: "NA",
+  "Club Advisor": "NA",
+  Day: "NA",
+  "Meeting Frequency": "NA",
+  Category: ["NA"],
+};
 
-let presidents = []
+let presidents = [];
 
-let coVnoco = "Co-Presidents"
-
+let coVnoco = "Co-Presidents";
 
 try {
-  const clubData = data.find(club => club["Club Name"].toLowerCase().replace(/\s/g, '') === route.params.name)
-  console.log(clubData)
-  if (!clubData) throw new Error('Club not found'); 
-  club = clubData;
+  const clubInfo = data.find(
+    (club) =>
+      club["Club Name"].toLowerCase().replace(/\s/g, "") === route.params.name
+  );
+  if (!clubInfo) throw new Error("Club not found");
+  club = clubInfo;
 
   if (club["Club President(s)"] !== undefined) {
     const presidentsTemp = club["Club President(s)"].split(" & ");
     presidents = presidentsTemp;
-    console.log(presidents);
+    //console.log(presidents);
     coVnoco = presidents.length > 1 ? "Co-Presidents" : "President";
   }
 } catch (e) {
-  useRouter().push('/404');
+  useRouter().push("/404");
 }
+
+const clubData = clubs.find(
+  (club) =>
+    club["club_name"].toLowerCase().replace(/\s/g, "") === route.params.name
+);
 //console.log(club, club["Club Name"].toLowerCase().replace(/\s/g, ''))
 </script>
 
 <template>
   <div class="flex flex-col items-center mb-[-4rem]">
-    <img 
-      class="w-full h-64 object-cover rounded-lg" 
-      src="https://t3.ftcdn.net/jpg/04/86/29/98/360_F_486299886_4aXrDh0LPy7BK4SUJvhCkKpnnExNDsLX.jpg" 
+    <img
+      class="w-full h-64 object-cover rounded-lg"
+      src="https://t3.ftcdn.net/jpg/04/86/29/98/360_F_486299886_4aXrDh0LPy7BK4SUJvhCkKpnnExNDsLX.jpg"
       alt="Club Banner"
     />
-    <div class="relative -top-20 px-6 flex flex-col lg:flex-row items-center gap-6">
-      <img 
+    <div
+      class="relative -top-20 px-6 flex flex-col lg:flex-row items-center gap-6"
+    >
+      <img
         class="w-48 h-48 object-cover rounded-full shadow-md"
-        src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg"
-        alt="Club Logo"
+        :src="
+          clubData
+            ? `/logos/${clubData.club_name
+                .toLowerCase()
+                .replace(/\s/g, '')}.png`
+            : 'https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg'
+        "
+        alt="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM="
       />
-      <div class="lg:flex lg:flex-col lg:items-center lg:justify-center w-full lg:mt-12">
-        <h1 class="text-4xl font-semibold text-center lg:text-left lg:mr-4">{{ club["Club Name"] }}</h1>
-        <p class="text-gray-700 text-center lg:text-left flex sm:flex-row flex-col text-lg gap-3">
-          <span>Room: <span class="font-semibold">{{ club["Room"] }}</span></span>
-          <span>Meeting Day: <span class="font-semibold">{{ club["Day"] }}</span></span>
-          <span>Meeting Frequency: <span class="font-semibold">{{ club["Frequency"] }}</span></span>
+      <div
+        class="lg:flex lg:flex-col lg:items-center lg:justify-center w-full lg:mt-12"
+      >
+        <h1 class="text-4xl font-semibold text-center lg:text-left lg:mr-4">
+          {{ club["Club Name"] }}
+        </h1>
+        <p
+          class="text-gray-700 text-center lg:text-left flex sm:flex-row flex-col text-lg gap-3"
+        >
+          <span
+            >Room: <span class="font-semibold">{{ club["Room"] }}</span></span
+          >
+          <span
+            >Meeting Day:
+            <span class="font-semibold">{{ club["Day"] }}</span></span
+          >
+          <span
+            >Meeting Frequency:
+            <span class="font-semibold">{{ club["Frequency"] }}</span></span
+          >
         </p>
       </div>
     </div>
@@ -77,11 +105,15 @@ try {
     <div class="w-full lg:w-1/2">
       <h3 class="text-lg font-semibold mb-2">About Us</h3>
       <p class="mb-4">
-        {{ clubs.find(club => club["Club Name"].toLowerCase().replace(/\s/g, '') === route.params.name)}}
+        {{ clubData ? clubData.description : "" }}
       </p>
       <h3 class="text-lg font-semibold mb-2">Leaders</h3>
       <div class="flex flex-col gap-4">
-        <div class="flex gap-4" v-for="president in presidents" :key="president">
+        <div
+          class="flex gap-4"
+          v-for="president in presidents"
+          :key="president"
+        >
           <Avatar>
             <AvatarImage src="https://github.com/radix-vue.png" alt="Avatar" />
             <AvatarFallback>CN</AvatarFallback>
