@@ -16,6 +16,7 @@
     "lucide-vue-next": "^0.330.0",
     "nuxt": "^3.10.1",
     "nuxt-app": "file:",
+    "papaparse": "^5.5.3",
     "pinia": "^2.2.2",
     "radix-vue": "^1.4.6",
     "tailwind-merge": "^2.2.1",
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.11.4",
+    "@types/papaparse": "^5.3.16",
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.35",
     "shadcn-nuxt": "^0.9.0",

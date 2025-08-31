@@ -1,24 +1,49 @@
 import os
 
-# Set the path to your directory
-directory = '../logos'
+# Set the path to your directory (current directory where the script is located)
+directory = '.'
+
+print("Note: This script only changes file extensions to .png")
+print("For actual image format conversion, you would need PIL/Pillow library")
+print("-" * 60)
 
 # Loop through all files in the directory
 for filename in os.listdir(directory):
-    # Only process files (not directories)
-    if os.path.isfile(os.path.join(directory, filename)):
+    # Only process image files (not directories) and skip Python files and CSV files
+    if (os.path.isfile(os.path.join(directory, filename)) and 
+        not filename.endswith('.py') and 
+        not filename.endswith('.csv') and
+        not filename.endswith('.txt') and
+        not filename.endswith('.md')):
+        
         name, ext = os.path.splitext(filename)
+        
+        # Only process common image file extensions
+        if ext.lower() not in ['.png', '.jpg', '.jpeg', '.gif', '.bmp', '.webp', '.svg']:
+            print(f'Skipping non-image file: {filename}')
+            continue
 
-        # Find the rightmost dash
-        new_name = name.rsplit('-', 1)[0].strip().replace(' ', '').lower() if '-' in name else name.strip().replace(' ', '').lower() + ext
+        # Find the rightmost dash and create new name
+        if '-' in name:
+            new_name = name.rsplit('-', 1)[0].strip().replace(' ', '').lower() + '.png'
+        else:
+            new_name = name.strip().replace(' ', '').lower() + '.png'
 
         # Full paths
         old_path = os.path.join(directory, filename)
         new_path = os.path.join(directory, new_name)
 
-        # Rename the file
-        os.rename(old_path, new_path)
-        print(f'Renamed: {filename} -> {new_name}')
+        # Only rename if the new name is different
+        if filename != new_name:
+            try:
+                os.rename(old_path, new_path)
+                print(f'Renamed: {filename} -> {new_name}')
+            except PermissionError as e:
+                print(f'Permission denied: {filename} -> {new_name}')
+            except FileExistsError as e:
+                print(f'File already exists: {filename} -> {new_name}')
+        else:
+            print(f'No change needed: {filename}')
 
 #import csv
 #import json

@@ -1,54 +1,3 @@
-<script setup>
-import { ChevronLeft } from "lucide-vue-next";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import data from "@/public/data.json";
-import { ref } from "vue";
-import { useRouter, useRoute } from "vue-router";
-import clubs from "../public/clubsInfo.json";
-
-const route = useRoute();
-
-let club = {
-  "Club Name": "NA",
-  "Club President(s)": "NA",
-  "Start After SING": "NA",
-  Type: "NA",
-  Room: "NA",
-  "Club Advisor": "NA",
-  Day: "NA",
-  "Meeting Frequency": "NA",
-  Category: ["NA"],
-};
-
-let presidents = [];
-
-let coVnoco = "Co-Presidents";
-
-try {
-  const clubInfo = data.find(
-    (club) =>
-      club["Club Name"].toLowerCase().replace(/\s/g, "") === route.params.name
-  );
-  if (!clubInfo) throw new Error("Club not found");
-  club = clubInfo;
-
-  if (club["Club President(s)"] !== undefined) {
-    const presidentsTemp = club["Club President(s)"].split(" & ");
-    presidents = presidentsTemp;
-    //console.log(presidents);
-    coVnoco = presidents.length > 1 ? "Co-Presidents" : "President";
-  }
-} catch (e) {
-  useRouter().push("/404");
-}
-
-const clubData = clubs.find(
-  (club) =>
-    club["club_name"].toLowerCase().replace(/\s/g, "") === route.params.name
-);
-//console.log(club, club["Club Name"].toLowerCase().replace(/\s/g, ''))
-</script>
-
 <template>
   <div class="flex flex-col items-center mb-[-4rem]">
     <img
@@ -61,34 +10,39 @@ const clubData = clubs.find(
     >
       <img
         class="w-48 h-48 object-cover rounded-full shadow-md"
-        :src="
-          clubData
-            ? `/logos/${clubData.club_name
-                .toLowerCase()
-                .replace(/\s/g, '')}.png`
-            : 'https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg'
-        "
-        alt="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM="
+        :src="imageExists(club.club_name)"
+        @error="
+              (event) => {
+                const target = event.target as HTMLImageElement;
+                if (target) {
+                  target.src = 'https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=';
+                }
+              }
+            "
+        alt="Club Logo"
       />
       <div
         class="lg:flex lg:flex-col lg:items-center lg:justify-center w-full lg:mt-12"
       >
         <h1 class="text-4xl font-semibold text-center lg:text-left lg:mr-4">
-          {{ club["Club Name"] }}
+          {{ club.club_name }}
         </h1>
         <p
           class="text-gray-700 text-center lg:text-left flex sm:flex-row flex-col text-lg gap-3"
         >
           <span
-            >Room: <span class="font-semibold">{{ club["Room"] }}</span></span
+            >Room:
+            <span class="font-semibold">{{ club.room_number }}</span></span
           >
           <span
             >Meeting Day:
-            <span class="font-semibold">{{ club["Day"] }}</span></span
+            <span class="font-semibold">{{ club.meeting_day }}</span></span
           >
           <span
             >Meeting Frequency:
-            <span class="font-semibold">{{ club["Frequency"] }}</span></span
+            <span class="font-semibold">{{
+              club.meeting_frequency
+            }}</span></span
           >
         </p>
       </div>
@@ -105,7 +59,7 @@ const clubData = clubs.find(
     <div class="w-full lg:w-1/2">
       <h3 class="text-lg font-semibold mb-2">About Us</h3>
       <p class="mb-4">
-        {{ clubData ? clubData.description : "" }}
+        {{ club.description || "No description available" }}
       </p>
       <h3 class="text-lg font-semibold mb-2">Leaders</h3>
       <div class="flex flex-col gap-4">
@@ -120,7 +74,7 @@ const clubData = clubs.find(
           </Avatar>
           <div class="flex flex-col">
             <p class="font-semibold text-base">{{ president }}</p>
-            <p class="text-sm text-gray-600">{{ coVnoco }}</p>
+            <p class="text-sm text-gray-600">{{ president_or_copresident }}</p>
           </div>
         </div>
       </div>
@@ -131,7 +85,7 @@ const clubData = clubs.find(
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
         <div class="flex flex-col">
-          <p class="font-semibold text-base">{{ club["Club Adviser"] }}</p>
+          <p class="font-semibold text-base">{{ club.club_adviser }}</p>
           <p class="text-sm text-gray-600">Advisor</p>
         </div>
       </div>
@@ -161,3 +115,45 @@ const clubData = clubs.find(
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { ChevronLeft } from "lucide-vue-next";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import clubs from "@/public/clubs.json";
+import { useRouter, useRoute } from "vue-router";
+import type { Club } from "@/utils/utils";
+import { createDefaultClub } from "@/utils/utils";
+
+const route = useRoute();
+
+let club: Club = createDefaultClub();
+
+let presidents: string[] = [];
+
+let president_or_copresident = "Co-Presidents";
+
+try {
+  const clubInfo = clubs.find(
+    (club) =>
+      club.club_name.toLowerCase().replace(/\s/g, "") === route.params.name
+  );
+  if (!clubInfo) throw new Error("Club not found");
+  club = clubInfo;
+
+  if (club.club_presidents !== undefined) {
+    const presidentsTemp = club.club_presidents.split(" & ");
+    presidents = presidentsTemp;
+    //console.log(presidents);
+    president_or_copresident =
+      presidents.length > 1 ? "Co-President" : "President";
+  }
+} catch (e) {
+  useRouter().push("/404");
+}
+
+function imageExists(clubName: string) {
+  const imagePath = `/logos/${clubName.toLowerCase().replace(/\s/g, "")}.png`;
+
+  return imagePath;
+}
+</script>
