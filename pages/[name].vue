@@ -50,7 +50,7 @@
   </div>
 
   <div class="flex flex-col-reverse lg:flex-row justify-between px-6">
-    <div class="w-full lg:w-1/2 pt-4">
+    <div class="w-full lg:w-2/3 pt-4">
       <h3 class="text-lg font-semibold mb-2">About Us</h3>
       <p class="mb-4">
         {{ club.description || "No description available" }}
