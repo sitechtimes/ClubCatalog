@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 flex flex-col lg:flex-row gap-6">
+  <div class="p-4 flex flex-col lg:flex-row md:gap-6">
     <div class="w-full mb-4 lg:hidden flex flex-row items-center gap-3">
       <button
         class="text-gray-600 hover:text-gray-900 flex flex-col items-center"
@@ -29,10 +29,11 @@
     </div>
     <!-- Sidebar for search and filters -->
     <div
+      class="bg-gray-100 rounded-lg w-full lg:w-1/4 lg:!max-h-none lg:!opacity-100 lg:!p-4 lg:!transform-none transition-all duration-300 ease-out overflow-hidden"
       :class="{
-        'hidden lg:block': !isMenuOpen,
+        'max-h-fit opacity-100 p-4 transform translate-y-0': isMenuOpen,
+        'max-h-0 opacity-0 p-0 transform -translate-y-2': !isMenuOpen,
       }"
-      class="bg-gray-100 p-4 rounded-lg w-full lg:w-1/4"
     >
       <label for="clubSearch" class="sr-only">Search for clubs</label>
       <div class="relative w-full hidden lg:block">
@@ -69,6 +70,12 @@
               'Health',
               'Leadership',
               'Community Service',
+              'Career Development',
+              'Religious/Spiritual',
+              'Technology & Engineering',
+              'Media & Communications',
+              'Political & Advocacy',
+              'Sports & Recreation',
             ]"
             :key="category"
             :class="{
@@ -96,6 +103,8 @@
               'Wednesday',
               'Thursday',
               'Friday',
+              'Saturday',
+              'Sunday',
             ]"
             class="rounded-lg py-1 px-4 cursor-pointer"
             :key="day"
@@ -164,7 +173,7 @@
           "
         >
           <img
-            class="rounded-full h-32 w-40 bg-cover"
+            class="rounded-full h-32 md:w-40 w-56"
             :src="imageExists(club.club_name)"
             @error="
               (event) => {
@@ -239,7 +248,7 @@ const meetingFrequencies = computed({
 });
 
 const isMenuOpen = computed({
-  get: () => store.isMenuOpen || false,
+  get: () => store.isMenuOpen ?? true,
   set: (value) => (store.isMenuOpen = value),
 });
 
