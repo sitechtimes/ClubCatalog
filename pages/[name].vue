@@ -49,11 +49,7 @@
     </div>
   </div>
 
-  <div class="flex flex-col lg:flex-row justify-between px-6">
-    <RouterLink to="/" class="btn btn-secondary">
-      <ChevronLeft class="h-6 w-6" />
-      Back to Club List
-    </RouterLink>
+  <div class="flex flex-col-reverse lg:flex-row justify-between px-6">
     <div class="w-full lg:w-1/2 pt-4">
       <h3 class="text-lg font-semibold mb-2">About Us</h3>
       <p class="mb-4">
@@ -105,12 +101,10 @@
       </div>
     </div>
     -->
-    <div class="items-start justify-center hidden lg:flex">
-      <RouterLink to="/" class="btn btn-secondary">
-        <ChevronLeft class="h-6 w-6" />
-        Back to Club List
-      </RouterLink>
-    </div>
+    <RouterLink to="/" class="btn btn-secondary my-2">
+      <ChevronLeft class="h-6 w-6" />
+      Back to Club List
+    </RouterLink>
   </div>
 </template>
 
