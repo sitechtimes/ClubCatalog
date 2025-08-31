@@ -49,14 +49,12 @@
     </div>
   </div>
 
-  <div class="flex flex-col lg:flex-row justify-between px-6 py-4">
-    <div class="flex items-start justify-center lg:hidden">
-      <RouterLink to="/" class="btn">
-        <ChevronLeft class="h-6 w-6" />
-        Back to Club List
-      </RouterLink>
-    </div>
-    <div class="w-full lg:w-1/2">
+  <div class="flex flex-col lg:flex-row justify-between px-6">
+    <RouterLink to="/" class="btn btn-secondary">
+      <ChevronLeft class="h-6 w-6" />
+      Back to Club List
+    </RouterLink>
+    <div class="w-full lg:w-1/2 pt-4">
       <h3 class="text-lg font-semibold mb-2">About Us</h3>
       <p class="mb-4">
         {{ club.description || "No description available" }}
@@ -108,7 +106,7 @@
     </div>
     -->
     <div class="items-start justify-center hidden lg:flex">
-      <RouterLink to="/" class="btn">
+      <RouterLink to="/" class="btn btn-secondary">
         <ChevronLeft class="h-6 w-6" />
         Back to Club List
       </RouterLink>

@@ -154,7 +154,7 @@
       </h1>
       <div v-for="club in clubs" :key="club.club_name">
         <div
-          class="flex items-center gap-6 mb-7"
+          class="flex flex-col md:flex-row md:items-center gap-4 md:gap-6 mb-7 p-4 bg-white rounded-lg shadow-sm"
           v-show="
             (clubSearch === '' ||
               club.club_name
@@ -173,7 +173,7 @@
           "
         >
           <img
-            class="rounded-full h-32 md:w-40 w-56"
+            class="rounded-full h-32 w-32 md:w-52 md:h-40 mx-auto md:mx-0 object-cover"
             :src="imageExists(club.club_name)"
             @error="
               (event) => {
@@ -185,14 +185,16 @@
             "
             alt="Club Logo"
           />
-          <div class="flex flex-col justify-between w-full">
-            <div class="flex flex-col gap-3">
+          <div
+            class="flex flex-col md:flex-row items-center md:justify-between w-full gap-4"
+          >
+            <div class="flex flex-col gap-3 flex-1 w-full">
               <h2 class="font-semibold text-lg">{{ club.club_name }}</h2>
               <p class="text-sm">
                 {{
                   club.description
-                    ? club.description.slice(0, 100) +
-                      (club.description.length > 100 ? "..." : "")
+                    ? club.description.slice(0, 200) +
+                      (club.description.length > 200 ? "..." : "")
                     : "No description available"
                 }}
               </p>
@@ -208,7 +210,7 @@
             </div>
             <NuxtLink
               :to="'/' + club.club_name.toLowerCase().replace(/\s/g, '')"
-              class="btn"
+              class="btn btn-primary btn-responsive"
             >
               View More
             </NuxtLink>
